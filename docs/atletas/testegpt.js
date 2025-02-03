@@ -182,6 +182,32 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "luiznochi": {
+            nome: "Luiz Nochi",
+            foto: "../galeria/luiz.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1995-08-22",
+            plano: "Consultoria de treino",
+            frequencia: "4x semana",
+            numero: "#2/2025",
+            foco: "A constância molda resultados",
+            dataProducao: "03/2",
+            
+            objetivo_principal: "Condicionamento físico e qualidade de vida",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/luiznochi_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/luiznochi_b"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/luiznochi_c"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         
         "Feaugar": {
             nome: "Felipe Augusto",
