@@ -20,102 +20,111 @@
         // No futuro isso pode ser carregado por uma API, por enquanto está mockado aqui
         var treino = [
         {
-                nome: 'Mobilidade sapo',
+                nome: 'Mobilidade girar o braço',
                 repeticoes: '10',
                 series: '1',
                 peso: '0 kg ',
                 descanso: '10 segundos',
-                video: '../galeria/videos/mob_sapo.mp4',
+                video: '../galeria/videos/mob_omb_gir_bast.mp4',
             },
             {
-                nome: 'Mobilidade de ombro na parede',
+                nome: 'Mobilidade de ombro',
                 repeticoes: '10',
                 series: '1',
                 peso: '0 kg',
                 descanso: '10 segundos',
+                video: '../galeria/videos/mob_omb_rel.mp4',
+            },
+            {
+                nome: 'Mobilidade ombro na parede',
+                repeticoes: '8',
+                series: '1',
+                peso: '0 kg ',
+                descanso: '0 segundos',
                 video: '../galeria/videos/mob_ombro_parede.mp4',
             },
             {
-                nome: 'Panturrilha no bozu',
+                nome: 'Gato-vaca',
+                repeticoes: '15',
+                series: '1',
+                peso: '0 kg ',
+                descanso: '30 segundos',
+                video: '../galeria/videos/mob_vac_gat.mp4',
+            },
+            {
+                nome: 'Supino com halter',
+                repeticoes: '12',
+                series: '4',
+                peso: '10 kg',
+                descanso: '30 segundos',
+                video: '../galeria/embreve.mp4',
+            },
+            {
+                nome: 'Crucifixo com halter',
+                repeticoes: '10',
+                series: '4',
+                peso: '6 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/pei_cruc_ha.mp4',
+            },
+            {
+                nome: 'Flexão de braço',
                 repeticoes: '10',
                 series: '3',
                 peso: '0 kg',
-                descanso: '20 segundos',
-                video: '../galeria/videos/pant_bozu.mp4',
+                descanso: '40 segundos',
+                video: '../galeria/videos/pei_flex.mp4',
             },
             {
-                nome: 'Sentar na caixa unilateral',
-                repeticoes: '15',
-                series: '2',
-                peso: '0 kg',
-                descanso: '30 segundos',
-                video: '../galeria/videos/per_sent_caix.mp4',
-            },
-            {
-                nome: 'Abdominal remador',
-                repeticoes: '15',
+                nome: 'Triceps Francês',
+                repeticoes: '12',
                 series: '3',
-                peso: '0 kg ',
-                descanso: '30 segundos',
-                video: '../galeria/videos/1.11.mp4',
+                peso: '8 kg ',
+                descanso: '20 segundos',
+                video: '../galeria/videos/tri_fran_halt.mp4',
             },
             {
-                nome: 'Supino na máquina',
-                repeticoes: '12',
-                series: '4',
-                peso: '7,5 kg',
-                descanso: '30 segundos',
-                video: '../galeria/videos/pei_sup_maq_hor.mp4',
-            },
-            {
-                nome: 'Triceps corda na polia',
-                repeticoes: '12',
+                nome: 'Triceps testa na polia',
+                repeticoes: '10',
                 series: '3',
                 peso: '15 kg ',
                 descanso: '20 segundos',
-                video: '../galeria/videos/tri_corda.mp4',
+                video: '../galeria/videos/tri_tes_cor.mp4',
             },
             {
                 nome: 'Desenvolvimento na máquina',
                 repeticoes: '10',
                 series: '4',
-                peso: '7,5 kg',
+                peso: '10 kg',
                 descanso: '20 segundos',
                 video: '../galeria/videos/omb_maq_des.mp4',
             },
             
             {
-                nome: 'Elevação lateral com halter',
+                nome: 'Elevação frontal com halter',
                 repeticoes: '10',
                 series: '3',
-                peso: '4 kg',
+                peso: '8 kg',
                 descanso: '20 segundos',
-                video: '../galeria/embreve.mp4',
+                video: '../galeria/videos/omb_elev_alt.mp4',
+            },
+            
+            {
+                nome: 'Abdominal Remador',
+                repeticoes: '15',
+                series: '4',
+                peso: '0',
+                descanso: '20 segundos',
+                video: '../galeria/videos/abd_rem.mp4',
             },
             {
-                nome: 'Leg Press',
-                repeticoes: '12',
-                series: '4',
-                peso: '120 kg',
-                descanso: '50 segundos',
-                video: '../galeria/videos/per_leg_45.mp4',
-            },
-            {
-                nome: 'Agachamento no smith',
-                repeticoes: '10',
-                series: '4',
-                peso: '30 kg',
+                nome: 'Prancha alta ',
+                repeticoes: '40 segundos',
+                series: '3',
+                peso: '0 kg',
                 descanso: '20 segundos',
-                video: '../galeria/videos/per_agac_smith.mp4',
-            },
-            {
-                nome: 'Cadeira extensora',
-                repeticoes: '10',
-                series: '4',
-                peso: '50 kg',
-                descanso: '20 segundos',
-                video: '../galeria/videos/per_ext_maq.mp4',
-            },
+                video: '../galeria/videos/abd_pran_alt.mp4',
+            },   
         ];
     </script>
 </head>
@@ -126,19 +135,19 @@
             <nav class="cabecalho_menu">
                 <a class="cabecalho_link" href='../index.html'>Início</a>
                 <a class="cabecalho_link" href='../formacao.html'>Currículo</a>
-                <a class="cabecalho_link" href='../planos.html'>Planos de treinos</a>
-                <a class="cabecalho_link" href='../artigos.html'>Matérias</a>
-                <a class="cabecalho_link" href='../galeria.html'>Galeria</a>
+                <!-- <a class="cabecalho_link" href='planos.html'>Planos de treinos</a> -->
+                <a class="cabecalho_link" href='../publicacoes.html'>Publicações</a>
+                <!-- <a class="cabecalho_link" href='galeria.html'>Galeria</a> -->
                 <a class="cabecalho_link" href='../depoimentos.html'>Depoimentos</a>
                 <a class="cabecalho_link" href='../atleta.html'>Área do atleta</a>
-                <a class="cabecalho_link" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Contato</a>
+                <!-- <a class="cabecalho_link" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Contato</a> -->
             </nav>
-
+    
         </header>
 
         <main>
             <section class="contato ">
-                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino B</header>
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Peito de pombo</header>
 
                 <div class="container">
 
@@ -160,30 +169,7 @@
                 </div>
             </section>
 
-        <section class="contato bloco ">
-            <header class="contato_cabecalho bloco_cabecalho_degrade">Entre em contato</header>
-            <div class="contato_form">
-                <div class="contato">
-                    <!--ultima parte do contato profissional-->
-                    <header class="perguntas"> Quaisquer dúvidas, perguntas, questionamentos, aflições e
-                        sugestões:</header>
-
-                    <div><a class="pergunta" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Pergunte
-                            aqui</a> </div>
-
-                    <header class=" acompanhe"><b>Acompanhe</b></header>
-
-                    <a href="https://www.instagram.com/kaio_guerrero/" target="blank"><img class="insta"
-                            src="../galeria/insta.jpg"></a>
-
-                    <a href="https://www.facebook.com/kaio.borgesguerrero" target="blank"><img class="facebook"
-                            src="../galeria/facebook2.jpg"></a>
-
-                    <A HREF="mailto:kaiobg@hotmail.com" target="blank"><img class="email"
-                            src="../galeria/hotmail.jpg"></a>
-                </div>
-            </div>
-        </section>
+        
  </section>
  </main>
     <div class="rodape"><!--cabeçalho da pagina com os botoes-->
