@@ -56,6 +56,35 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Batoledo": {
+            nome: "Bárbara Mendes de Toledo",
+            foto: "../galeria/barbara.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1997-02-28",
+            plano: "Presencial 2x/semana",
+            frequencia: "5x semana",
+            numero: "#2/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "5/2",
+            
+            objetivo_principal: "Ganho de força e definição membros inferiores",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Batoledo_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Batoledo_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Batoledo_c"},
+                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/Batoledo_d"},
+                
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=999306441&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "Biagsilva": {
             nome: "Beatriz Gonçalves Silva",
             foto: "../galeria/bia.jpg",
@@ -101,6 +130,61 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "5614": {
+            nome: "Carolina Uliana",
+            foto: "../galeria/carol.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1996-08-05",
+            plano: "Presencial 2x/semana",
+            frequencia: "5x semana",
+            numero: "#2/2025",
+            foco: "Paciência e persistência elevam o potencial",
+            dataProducao: "5/2",
+            
+            objetivo_principal: "Emagrecimento, definição e melhoria de corrida",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/5614_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/5614_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/5614_c"},
+                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/5614_d"},
+                
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1831724373&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "camsnog": {
+            nome: "Camilly Nogueira",
+            foto: "../galeria/cams.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "2003-07-03",
+            plano: "Presencial 2x/semana",
+            frequencia: "5x semana",
+            numero: "#1/2025",
+            foco: "O descanso tambem é importante",
+            dataProducao: "5/2",
+            
+            objetivo_principal: "Ganhar resistência na corrida e prevenção de lesão",
+            treinos: [
+                {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1N6WoPysUvi-_C3rfH8zPflxO40ob7HMifJHIWpOnq_c/edit?usp=sharing"},
+                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
+                {texto: "Treino  Academia", url: "http://kaioguerrero.com/atletas/camsnog_a"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1831724373&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
