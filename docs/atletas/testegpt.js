@@ -469,13 +469,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             objetivo_principal: "Condicionamento físico geral",
             treinos: [
-                {texto: "Treino A - Agora vai", url: "http://kaioguerrero.com/atletas/rafmbr_a" },
-                {texto: "Treino B - Bora que dá", url: "http://kaioguerrero.com/atletas/rafmbr_b"},
-                {texto: "Treino C - Cê consegue", url: "http://kaioguerrero.com/atletas/rafmbr_c"},
+                {texto: "Treino A ", url: "http://kaioguerrero.com/atletas/rafmbr_a" },
+                {texto: "Treino B ", url: "http://kaioguerrero.com/atletas/rafmbr_b"},
+                {texto: "Treino C ", url: "http://kaioguerrero.com/atletas/rafmbr_c"},
+                {texto: "Treino D ", url: "http://kaioguerrero.com/atletas/rafmbr_d"},
                 
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1506518616&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
