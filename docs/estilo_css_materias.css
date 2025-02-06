@@ -38,10 +38,16 @@ p{
     font-size:16px;
     line-height: 1.8; 
 }
-
+.paragrafo_dentro{
+    line-height: 2rem;
+    text-align: justify;
+}
+.video-container{
+    margin-bottom: 20px;
+}
 
 .foto_galeria{
-    animation: 4s infinite alternate circle;
+    /* animation: 4s infinite alternate circle; */
     display: flex;
     height: 200px;
     width: 300px;
@@ -49,7 +55,7 @@ p{
     float: left;  
 }
 .foto_galeria2{
-    animation: 4s infinite alternate circle;
+    /* animation: 4s infinite alternate circle; */
     display: flex;
     height: 200px;
     width: 300px;
@@ -57,7 +63,7 @@ p{
     float: left;  
 }
 .foto_galeria3{
-    animation: 4s infinite alternate circle;
+    /* animation: 4s infinite alternate circle; */
     display: flex;
     height: 200px;
     width: 300px;
@@ -65,7 +71,7 @@ p{
     float: left;  
 }
 .foto_galeria4{
-    animation: 4s infinite alternate circle;
+    /* animation: 4s infinite alternate circle; */
     display: flex;
     height: 200px;
     width: 300px;
@@ -85,24 +91,35 @@ p{
 }
     
 .foto{
-    height: 300px;
-    width: 400px;
-    margin:20px;
-    margin-bottom: 0px;
-    margin-top:0px;
+    display: flex;
+    height: 200px;
+    width: 300px;
     float: left;  
+    margin: 10px; 
 }
 .foto2{
-    height: 300px;
-    width: 400px;
-    margin:20px;
-    margin-bottom: 0px;
-    margin-top:0px;
-    float: right;  
+    display: flex;
+    height: 200px;
+    width: 300px;
+    float: right; 
+    margin: 10px; 
 }
+
 @media (max-width: 1000px) {
   .intermedio2{
     text-align: justify;
 
   }
+}
+
+
+@media (max-width: 480px) {
+   
+
+.foto{
+    margin: 0px;
+}
+.foto2{
+   margin: 0px;
+}
 }
