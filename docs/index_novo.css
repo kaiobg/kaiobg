@@ -160,7 +160,9 @@ header {
     margin-left: auto; 
     margin-right: auto; 
     text-align: justify;  
-    background-color: #ea4141;
+    background-color: #28a745;
+    letter-spacing: 0.05rem;
+    
 }
 .h2_espaco{
     margin-bottom: 20px;
@@ -168,6 +170,10 @@ header {
 }
 .h2_sem_espaco{
     font-size: 30px;
+}
+.letter_space{
+    letter-spacing: 0.05rem;
+
 }
 /* Botões */
 .buttons {
@@ -179,13 +185,13 @@ header {
 
 .btn-primary {
     padding: 10px 20px;
-    background: #41EAD4;
+    background: #28a745;
     /* width: 80%; */
-    color: #000000;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     display: inline-block;
 }
@@ -350,6 +356,10 @@ header {
     min-width: 250px;
     display: block;
 }
+.espaco_section{
+    max-width: 35%;
+    text-align: justify;
+}
 
 /* Estilização do "+50" */
 .highlight-number {
@@ -391,7 +401,9 @@ header {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Intensifica a sombra */
 }
 
-
+.contato{
+    text-align: center;
+  }
 /* Responsividade */
 @media (max-width: 768px) {
     .header{
@@ -418,7 +430,7 @@ header {
         /* font-size: 14px; */
         padding: 8px 16px;
     }
-}
+
 
     .images-section img {
         width: 200px; /* Reduz o tamanho das imagens em telas menores */
@@ -441,6 +453,13 @@ header {
   .contato{
     text-align: center;
   }
+  .espaco_section{
+    margin: auto;
+    text-align: justify;
+    align-items: center;
+   max-width: 100%;
+}
+}
 
 @media (max-width: 480px) {
     .header{
@@ -505,6 +524,10 @@ header {
     .cabecalho_link {
         font-size: 14px; /* Reduz ainda mais a fonte para telas muito pequenas */
         padding: 5px 8px; /* Espaçamento mais compacto */
+    }
+    .espaco_section{
+        max-width: 100%;
+        text-align: justify;
     }
 }
 
