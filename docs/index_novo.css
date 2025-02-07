@@ -226,7 +226,19 @@ header {
     font-weight: 500; /* Texto levemente em negrito */
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Adiciona transições suaves */
 }
-
+.button0 {
+    background-color: #453335; /* Cor de fundo inicial */
+    border: 2px solid #ffffff; /* Borda branca */
+    margin: 10px 50px; /* Espaçamento ao redor do botão */
+    color: #ffffff; /* Cor do texto */
+    
+    padding: 12px 25px;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500; /* Texto levemente em negrito */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Adiciona transições suaves */
+}
 
 
 .button1:hover {
