@@ -226,7 +226,7 @@ header {
     font-weight: 500; /* Texto levemente em negrito */
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Adiciona transições suaves */
 }
-.button0 {
+.button3 {
     background-color: #453335; /* Cor de fundo inicial */
     border: 2px solid #ffffff; /* Borda branca */
     margin: 10px 50px; /* Espaçamento ao redor do botão */
