@@ -351,10 +351,11 @@ header {
 
 /* Vídeo estilizado e responsivo */
 .video-container video {
-    width: 100%; /* Faz o vídeo preencher o contêiner */
+    width: 400px; /* Faz o vídeo preencher o contêiner */
     height: auto; /* Mantém a proporção original */
     display: block; /* Remove espaço adicional */
     object-fit: contain; /* Certifica que o conteúdo não é cortado */
+    margin: auto;
     border-radius: 8px; /* Borda arredondada opcional */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para destaque */
 }
@@ -540,6 +541,10 @@ header {
     .espaco_section{
         max-width: 100%;
         text-align: justify;
+    }
+    .video-container video {
+        width: 300px; /* Faz o vídeo preencher o contêiner */
+        
     }
 }
 

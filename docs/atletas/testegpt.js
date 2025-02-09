@@ -166,12 +166,38 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "caio_vcs": {
+            nome: "Caio Vinicius Castro",
+            foto: "../galeria/caioj.jpg",
+            grafico:"../galeria/caiojt.png",
+            nascimento: "1999-10-21",
+            plano: "Consultoria online",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "A constância traz resultados",
+            dataProducao: "5/2",
+            
+            objetivo_principal: "Hipertrofia",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/caio.vcs_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/caio.vcs_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/caio.vcs_c"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=600279512&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "camsnog": {
             nome: "Camilly Nogueira",
             foto: "../galeria/cams.jpg",
             grafico:"../galeria/cams_teste.png",
             nascimento: "2003-07-03",
-            plano: "Presencial 2x/semana",
+            plano: "Consultoria online",
             frequencia: "5x semana",
             numero: "#1/2025",
             foco: "O descanso tambem é importante",
@@ -181,10 +207,13 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1N6WoPysUvi-_C3rfH8zPflxO40ob7HMifJHIWpOnq_c/edit?usp=sharing"},
                 {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
-                {texto: "Treino  Academia", url: "http://kaioguerrero.com/atletas/camsnog_a"},
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/camsnog_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/camsnog_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/camsnog_c"},
+                {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/camsnog_d"},
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=515400627&single=true"}
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2077775025&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -365,6 +394,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino funcional A", url: "http://kaioguerrero.com/atletas/gabriel_peagno_a"},
                 {texto: "Treino funcional B", url: "http://kaioguerrero.com/atletas/gabriel_peagno_b"},
+                {texto: "Treino casa rápido", url: "http://kaioguerrero.com/atletas/gabriel_peagno_d"},
                 {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel_peagno_c"},
                 { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1iiu6vaaa4803hvowzGfDG_Pd6j_8-LPz7OWbcy2wHfQ/edit?usp=sharing" },
                 

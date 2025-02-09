@@ -92,14 +92,14 @@ p{
     
 .foto{
     display: flex;
-    height: 200px;
+    height: 250px;
     width: 300px;
     float: left;  
     margin: 10px; 
 }
 .foto2{
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 300px;
     float: right; 
     margin: 10px; 
