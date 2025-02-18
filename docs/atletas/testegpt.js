@@ -99,7 +99,9 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro, definição e ganho de massa",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Biagsilva_a"},
-               
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Biagsilva_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Biagsilva_c"},
+                {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Biagsilva_carna"},
                 
             ],
             testes:[
@@ -262,6 +264,36 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro e joelho, hipertrofia e saúde",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Kabata_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Kabata_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Kabata_c"},
+                {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Kabata_carnaval"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "jdumiranda": {
+            nome: "José Eduardo Miranda",
+            foto: "../galeria/eduardo.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1992-03-17",
+            plano: "Presencial 2x/semana",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "Com trabalho duro, o resultado aparece",
+            dataProducao: "18/02",
+            
+            objetivo_principal: "Fortalecer ombro e joelho, focado em reabilitação",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Kabata_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Kabata_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Kabata_c"},
+                {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Kabata_carnaval"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
@@ -533,6 +565,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_b" },
                 { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
+                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
             ],
             testes:[
