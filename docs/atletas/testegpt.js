@@ -290,9 +290,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Fortalecer ombro e joelho, focado em reabilitação",
             treinos: [
-                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/jdumiranda_a"},
-                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/jdumiranda_b"},
-                
+                {texto: "Treino  Pliometria A", url: "http://kaioguerrero.com/atletas/jdumiranda_a"},
+                {texto: "Treino  Pliometria B", url: "http://kaioguerrero.com/atletas/jdumiranda_b"},
+                {texto: "Treino  Academia", url: "http://kaioguerrero.com/atletas/jdumiranda_c"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
