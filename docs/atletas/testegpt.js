@@ -27,6 +27,60 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Anasakamiti": {
+            nome: "Ana Sakamiti",
+            foto: "../galeria/anap.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1984-06-23",
+            plano: "Presencial 2x/semana",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "22/2",
+            
+            objetivo_principal: "Fortalecer, melhorar saúde física e emagrecer",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Anasakamiti_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Anasakamiti_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Anasakamiti_c"},
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Andre123": {
+            nome: "André Sleutjes",
+            foto: "../galeria/kaio_perfil.jpeg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1984-06-23",
+            plano: "Presencial 1x/semana",
+            frequencia: "1x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "22/2",
+            
+            objetivo_principal: "Específico basquete",
+            treinos: [
+                {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/André123_a"},
+                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Anasakamiti_b"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Anasakamiti_c"},
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "cauesj": {
             nome: "Cauê da Silva",
             foto: "../galeria/caue.jpg",
@@ -43,8 +97,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/cauesj_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/cauesj_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/cauesj_c"},
-                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/cauesj_d"},
-                {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/cauesj_ba"},
+                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/cauesj_d"},
+                // {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/cauesj_ba"},
                 
             ],
             testes:[
@@ -71,8 +125,8 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Batoledo_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Batoledo_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Batoledo_c"},
-                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/Batoledo_d"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Batoledo_c"},
+                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/Batoledo_d"},
                 
                 
             ],
@@ -94,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "3x semana",
             numero: "#1/2025",
             foco: "Reclama de fazer braço, mas faz",
-            dataProducao: "11/1",
+            dataProducao: "23/2",
             
             objetivo_principal: "Fortalecer ombro, definição e ganho de massa",
             treinos: [
@@ -148,14 +202,14 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "5x semana",
             numero: "#2/2025",
             foco: "Paciência e persistência elevam o potencial",
-            dataProducao: "5/2",
+            dataProducao: "25/2",
             
             objetivo_principal: "Emagrecimento, definição e melhoria de corrida",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/5614_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/5614_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/5614_c"},
-                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/5614_d"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/5614_c"},
+                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/5614_d"},
                 
                 
             ],
@@ -177,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "A constância traz resultados",
-            dataProducao: "5/2",
+            dataProducao: "25/2",
             
             objetivo_principal: "Hipertrofia",
             treinos: [
@@ -203,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "5x semana",
             numero: "#1/2025",
             foco: "O descanso tambem é importante",
-            dataProducao: "5/2",
+            dataProducao: "25/2",
             
             objetivo_principal: "Ganhar resistência na corrida e prevenção de lesão",
             treinos: [
@@ -259,7 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "3x semana",
             numero: "#1/2025",
             foco: "Reclama de fazer perna, mas faz",
-            dataProducao: "11/1",
+            dataProducao: "25/2",
             
             objetivo_principal: "Fortalecer ombro e joelho, hipertrofia e saúde",
             treinos: [
@@ -312,7 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "3x semana",
             numero: "#1/2025",
             foco: "A constância molda resultados",
-            dataProducao: "20/1",
+            dataProducao: "20/2",
             
             objetivo_principal: "Condicionamento físico e qualidade de vida",
             treinos: [
@@ -339,7 +393,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#2/2025",
             foco: "A constância molda resultados",
-            dataProducao: "03/2",
+            dataProducao: "25/2",
             
             objetivo_principal: "Condicionamento físico e qualidade de vida",
             treinos: [
@@ -419,7 +473,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Constância é a chave para o resultado",
-            dataProducao: "29/12",
+            dataProducao: "25/02",
             
             objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
             treinos: [
@@ -439,63 +493,63 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
-        "jessica_calixto": {
-            nome: "Jessica Calixto",
-            foto: "../galeria/jessica.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "1992-08-18",
-            plano: "Consultoria de treino e corrida",
-            frequencia: "4x semana",
-            numero: "#1/2025",
-            foco: "Constância é a chave para o resultado",
-            dataProducao: "11/01",
+        // "jessica_calixto": {
+        //     nome: "Jessica Calixto",
+        //     foto: "../galeria/jessica.png",
+        //     grafico:"../galeria/testes.png",
+        //     nascimento: "1992-08-18",
+        //     plano: "Consultoria de treino e corrida",
+        //     frequencia: "4x semana",
+        //     numero: "#1/2025",
+        //     foco: "Constância é a chave para o resultado",
+        //     dataProducao: "11/01",
             
-            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
-            treinos: [
-                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/jessica_calixto_a"},
-                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/jessica_calixto_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/jessica_calixto_c"},
-                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
-                {texto: "Treino especial joelho", url: "http://kaioguerrero.com/atletas/jessica_calixto_e"},
-                {texto: "Treino faça todo dia", url: "http://kaioguerrero.com/atletas/jessica_calixto_f"},
-                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1ox9xsHunk8OR5OHnWwRVvSITRzZZxZhRkwqHZTxFCPo/edit?usp=sharing" },
+        //     objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
+        //     treinos: [
+        //         {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/jessica_calixto_a"},
+        //         {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/jessica_calixto_b"},
+        //         {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/jessica_calixto_c"},
+        //         {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
+        //         {texto: "Treino especial joelho", url: "http://kaioguerrero.com/atletas/jessica_calixto_e"},
+        //         {texto: "Treino faça todo dia", url: "http://kaioguerrero.com/atletas/jessica_calixto_f"},
+        //         { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1ox9xsHunk8OR5OHnWwRVvSITRzZZxZhRkwqHZTxFCPo/edit?usp=sharing" },
                 
-            ],
-            testes:[
-                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
+        //     ],
+        //     testes:[
+        //         {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+        //     ],
+        //     whats:[
+        //         {texto: "Fale comigo", 
+        //             url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+        //     ],
             
-        },
-        "Helen": {
-            nome: "Helen Kuhl",
-            foto: "../galeria/helen.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "1994-09-20",
-            plano: "Consultoria de treino",
-            frequencia: "2x semana",
-            numero: "#1/2025",
-            foco: "Cuidado com a alimentação",
-            dataProducao: "11/01",
+        // },
+        // "Helen": {
+        //     nome: "Helen Kuhl",
+        //     foto: "../galeria/helen.png",
+        //     grafico:"../galeria/testes.png",
+        //     nascimento: "1994-09-20",
+        //     plano: "Consultoria de treino",
+        //     frequencia: "2x semana",
+        //     numero: "#1/2025",
+        //     foco: "Cuidado com a alimentação",
+        //     dataProducao: "11/01",
             
-            objetivo_principal: "Emagrecer",
-            treinos: [
-                {texto: "Treino  Braço", url: "http://kaioguerrero.com/atletas/Helen_a"},
-                {texto: "Treino  Perna", url: "http://kaioguerrero.com/atletas/Helen_b"},
+        //     objetivo_principal: "Emagrecer",
+        //     treinos: [
+        //         {texto: "Treino  Braço", url: "http://kaioguerrero.com/atletas/Helen_a"},
+        //         {texto: "Treino  Perna", url: "http://kaioguerrero.com/atletas/Helen_b"},
                 
-            ],
-            testes:[
-                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
+        //     ],
+        //     testes:[
+        //         {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+        //     ],
+        //     whats:[
+        //         {texto: "Fale comigo", 
+        //             url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+        //     ],
             
-        },
+        // },
         "nathipg": {
             nome: "Nathália Pissuti",
             foto: "../galeria/nathalia.jpg",
@@ -505,7 +559,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Bora lá que você consegue",
-            dataProducao: "29/12",
+            dataProducao: "25/02",
             
             objetivo_principal: "Fortalecimento geral, fortalecimento específico de músculos para forçar menos o joelho, melhora da postura",
             treinos: [
@@ -531,14 +585,14 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Cuidado com a lombar",
-            dataProducao: "29/12",
+            dataProducao: "25/02",
             objetivo_principal: "Treinos focados em emagrecimento, saúde e condicionamento",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
                 { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Marinaggm_c" },
-                { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Marinaggm_d" },
-                { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Marinaggm_casa" },
+                // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Marinaggm_d" },
+                // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Marinaggm_casa" },
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1551563165&single=true"}
@@ -558,7 +612,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Cuidado com a execução de exercício",
-            dataProducao: "11/1",
+            dataProducao: "21/2",
             objetivo_principal: "Treinos focados em fortalecimento, reabilitação, saúde e condicionamento",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_a" },
@@ -585,7 +639,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Para de ficar lavando couve",
-            dataProducao: "29/12",
+            dataProducao: "25/22",
             
 
             objetivo_principal: "Treinos focados em emagrecimento, saúde e prevenção de lesão",
@@ -593,8 +647,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Simioni_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Simioni_b" },
                 { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
-                { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Simioni_d" },
-                { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Simioni_casa" },
+                // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Simioni_d" },
+                // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Simioni_casa" },
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2026510662&single=true"}
@@ -614,7 +668,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Grandes resultados começam com uma simples escolha",
-            dataProducao: "29/12",
+            dataProducao: "25/02",
 
             objetivo_principal: "Condicionamento físico geral",
             treinos: [

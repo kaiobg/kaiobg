@@ -264,6 +264,9 @@ header {
     color: #000000; /* Cor do texto no hover */
     border-color: #28a745; /* Alterar a borda no hover */
 }
+.gambi{
+    font-size: 1.1rem;
+}
 .quem_sou{
     background-color: #521118; /* Cor de fundo inicial */
     border: 2px solid #ffffff; /* Borda branca */
@@ -495,7 +498,9 @@ header {
         /* font-size: 12px; */
         padding: 6px 12px;
     }
-
+    .gambi{
+        font-size: 1rem;
+    }
     h1, h2 {
         font-size: 25px;
     }
