@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             nome: "André Sleutjes",
             foto: "../galeria/kaio_perfil.jpeg",
             grafico:"../galeria/testes.png",
-            nascimento: "1984-06-23",
+            nascimento: "2010-07-06",
             plano: "Presencial 1x/semana",
             frequencia: "1x semana",
             numero: "#1/2025",
@@ -566,7 +566,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/nathipg_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/nathipg_b" },
-                { texto: "Treino Todo dia senão morre", url: "http://kaioguerrero.com/atletas/nathipg_c" },
+                // { texto: "Treino Todo dia senão morre", url: "http://kaioguerrero.com/atletas/nathipg_c" },
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=308239942&single=true"}
