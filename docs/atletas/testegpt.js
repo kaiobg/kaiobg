@@ -81,6 +81,33 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "ARIELFAHL": {
+            nome: "Ariel Favoretto",
+            foto: "../galeria/ariel.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "2000-05-03",
+            plano: "Consultoria on-line",
+            frequencia: "1x semana",
+            numero: "#1/2025",
+            foco: "O primeiro passo é o mais dificil",
+            dataProducao: "25/2",
+            
+            objetivo_principal: "Qualidade de vida e casório",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/ARIELFAHL_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/ARIELFAHL_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/ARIELFAHL_c"},
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "cauesj": {
             nome: "Cauê da Silva",
             foto: "../galeria/caue.jpg",
@@ -208,6 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/5614_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/5614_b"},
+                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1zTCMuIdQB2kx8yuq8Gt7Y2dG6jDhsP8J3SnAS18XmKc/edit?usp=sharing" },
                 // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/5614_c"},
                 // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/5614_d"},
                 
@@ -374,7 +402,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/llneco_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/llneco_c"},
-                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
+                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2017369885&single=true"}
@@ -676,7 +704,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino A ", url: "http://kaioguerrero.com/atletas/rafmbr_a" },
                 {texto: "Treino B ", url: "http://kaioguerrero.com/atletas/rafmbr_b"},
                 {texto: "Treino C ", url: "http://kaioguerrero.com/atletas/rafmbr_c"},
-                {texto: "Treino D ", url: "http://kaioguerrero.com/atletas/rafmbr_d"},
+                // {texto: "Treino D ", url: "http://kaioguerrero.com/atletas/rafmbr_d"},
                 
             ],
             testes:[
