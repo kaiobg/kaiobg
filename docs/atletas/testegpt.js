@@ -386,6 +386,33 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "981864947": {
+            nome: "Jefferson Horãcio",
+            foto: "../galeria/jefferson.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1980-01-05",
+            plano: "Consultoria de treino",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "O trabalho duro devolve",
+            dataProducao: "20/3",
+            
+            objetivo_principal: "Ganho de massa, impulsão, velocidade e basquete",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/981864947_a"},
+                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/llneco_c"},
+                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://kaioguerrero.com"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "llneco": {
             nome: "Leonardo Lopes Neco",
             foto: "../galeria/leoneco.png",
