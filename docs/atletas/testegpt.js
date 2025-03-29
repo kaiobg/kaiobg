@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Qualidade de vida e casório",
             treinos: [
+                {texto: "Treino  ESPECIAL", url: "http://kaioguerrero.com/atletas/ARIELFAHL_d"},
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/ARIELFAHL_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/ARIELFAHL_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/ARIELFAHL_c"},
