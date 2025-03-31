@@ -676,7 +676,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_b" },
                 { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
                 {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
-                { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
+                // { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
