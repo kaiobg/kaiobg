@@ -181,9 +181,9 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro, definição e ganho de massa",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Biagsilva_a"},
-                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Biagsilva_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Biagsilva_c"},
-                {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Biagsilva_carnaval"},
+                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Biagsilva_b"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Biagsilva_c"},
+                // {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Biagsilva_carnaval"},
                 
             ],
             testes:[
@@ -347,9 +347,9 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro e joelho, hipertrofia e saúde",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Kabata_a"},
-                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Kabata_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Kabata_c"},
-                {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Kabata_carnaval"},
+                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Kabata_b"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Kabata_c"},
+                // {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Kabata_carnaval"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
@@ -374,8 +374,8 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro e joelho, focado em reabilitação",
             treinos: [
                 {texto: "Treino  Pliometria A", url: "http://kaioguerrero.com/atletas/jdumiranda_a"},
-                {texto: "Treino  Pliometria B", url: "http://kaioguerrero.com/atletas/jdumiranda_b"},
-                {texto: "Treino  Pliometria C", url: "http://kaioguerrero.com/atletas/jdumiranda_c"},
+                // {texto: "Treino  Pliometria B", url: "http://kaioguerrero.com/atletas/jdumiranda_b"},
+                // {texto: "Treino  Pliometria C", url: "http://kaioguerrero.com/atletas/jdumiranda_c"},
                 {texto: "Treino  Academia", url: "http://kaioguerrero.com/atletas/jdumiranda_d"},
             ],
             testes:[
