@@ -430,7 +430,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/llneco_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/llneco_c"},
-                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
+                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2017369885&single=true"}
