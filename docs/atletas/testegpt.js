@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/najupma_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/najupma_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/najupma_c"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/najupma_c"},
                 
             ],
             testes:[
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/cauesj_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/cauesj_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/cauesj_c"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/cauesj_c"},
                 // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/cauesj_d"},
                 // {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/cauesj_ba"},
                 
@@ -195,32 +195,32 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
-        "Bruna8178": {
-            nome: "Bruna Alves de Freitas",
-            foto: "../galeria/brunaa.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "1993-05-03",
-            plano: "Consultoria de corrida",
-            frequencia: "2x semana",
-            numero: "#1/2025",
-            foco: "Bora correr atrás dos objetivos",
-            dataProducao: "11/1",
+        // "Bruna8178": {
+        //     nome: "Bruna Alves de Freitas",
+        //     foto: "../galeria/brunaa.png",
+        //     grafico:"../galeria/testes.png",
+        //     nascimento: "1993-05-03",
+        //     plano: "Consultoria de corrida",
+        //     frequencia: "2x semana",
+        //     numero: "#1/2025",
+        //     foco: "Bora correr atrás dos objetivos",
+        //     dataProducao: "11/1",
             
-            objetivo_principal: "Melhorar o condicionamento de corrida",
-            treinos: [
-                {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1sz207z8bC9OmVQn7XUtrCiGXEUvzdIBPNJZuBFMZwg4/edit?usp=sharing"},
-                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
+        //     objetivo_principal: "Melhorar o condicionamento de corrida",
+        //     treinos: [
+        //         {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1sz207z8bC9OmVQn7XUtrCiGXEUvzdIBPNJZuBFMZwg4/edit?usp=sharing"},
+        //         {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 
-            ],
-            testes:[
-                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
+        //     ],
+        //     testes:[
+        //         {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+        //     ],
+        //     whats:[
+        //         {texto: "Fale comigo", 
+        //             url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+        //     ],
             
-        },
+        // },
         "5614": {
             nome: "Carolina Uliana",
             foto: "../galeria/carol.jpg",
@@ -307,33 +307,33 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
-        "Day": {
-            nome: "Dayane Cerigatto",
-            foto: "../galeria/day.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "1988-07-07",
-            plano: "Consultoria de corrida",
-            frequencia: "2x semana",
-            numero: "#1/2025",
-            foco: "Bora correr atrás dos objetivos",
-            dataProducao: "20/1",
+        // "Day": {
+        //     nome: "Dayane Cerigatto",
+        //     foto: "../galeria/day.png",
+        //     grafico:"../galeria/testes.png",
+        //     nascimento: "1988-07-07",
+        //     plano: "Consultoria de corrida",
+        //     frequencia: "2x semana",
+        //     numero: "#1/2025",
+        //     foco: "Bora correr atrás dos objetivos",
+        //     dataProducao: "20/1",
             
-            objetivo_principal: "Melhorar o condicionamento de corrida",
-            treinos: [
-                {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1OxH1e88PG-Ean5IjOngZgcgpDarP93fmNMMRAjthqvI/edit?usp=sharing"},
-                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
+        //     objetivo_principal: "Melhorar o condicionamento de corrida",
+        //     treinos: [
+        //         {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1OxH1e88PG-Ean5IjOngZgcgpDarP93fmNMMRAjthqvI/edit?usp=sharing"},
+        //         {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 
                 
-            ],
-            testes:[
-                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
+        //     ],
+        //     testes:[
+        //         {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+        //     ],
+        //     whats:[
+        //         {texto: "Fale comigo", 
+        //             url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+        //     ],
             
-        },
+        // },
         "Kabata": {
             nome: "Daniel Kabata",
             foto: "../galeria/daniel.jpg",
@@ -388,33 +388,33 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
-        "981864947": {
-            nome: "Jefferson Horãcio",
-            foto: "../galeria/jefferson.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "1980-01-05",
-            plano: "Consultoria de treino",
-            frequencia: "3x semana",
-            numero: "#1/2025",
-            foco: "O trabalho duro devolve",
-            dataProducao: "20/3",
+        // "981864947": {
+        //     nome: "Jefferson Horácio",
+        //     foto: "../galeria/jefferson.png",
+        //     grafico:"../galeria/testes.png",
+        //     nascimento: "1980-01-05",
+        //     plano: "Consultoria de treino",
+        //     frequencia: "3x semana",
+        //     numero: "#1/2025",
+        //     foco: "O trabalho duro devolve",
+        //     dataProducao: "20/3",
             
-            objetivo_principal: "Ganho de massa, impulsão, velocidade e basquete",
-            treinos: [
-                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/981864947_a"},
-                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
-                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/llneco_c"},
-                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
-            ],
-            testes:[
-                {texto: "Histórico de treinos", url: "https://kaioguerrero.com"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
+        //     objetivo_principal: "Ganho de massa, impulsão, velocidade e basquete",
+        //     treinos: [
+        //         {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/981864947_a"},
+        //         // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
+        //         // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/llneco_c"},
+        //         // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
+        //     ],
+        //     testes:[
+        //         {texto: "Histórico de treinos", url: "https://kaioguerrero.com"}
+        //     ],
+        //     whats:[
+        //         {texto: "Fale comigo", 
+        //             url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+        //     ],
             
-        },
+        // },
         "llneco": {
             nome: "Leonardo Lopes Neco",
             foto: "../galeria/leoneco.png",
@@ -457,7 +457,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/luiznochi_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/luiznochi_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/luiznochi_c"},
+                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/luiznochi_c"},
                 // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/luiznochi_d"},
             ],
             testes:[
@@ -648,7 +648,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
-                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Marinaggm_c" },
+                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Marinaggm_c" },
                 // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Marinaggm_d" },
                 // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Marinaggm_casa" },
             ],
@@ -675,7 +675,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_b" },
-                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
+                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
                 {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 // { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
             ],
@@ -704,7 +704,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Simioni_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Simioni_b" },
-                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
+                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
                 // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Simioni_d" },
                 // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Simioni_casa" },
             ],
@@ -717,34 +717,34 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
-        "rafmbr": {
-            nome: "Rafael de Menezes Barros",
-            foto: "../galeria/rafael.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "1988-08-09",
-            plano: "Consultoria de treino",
-            frequencia: "4x semana",
-            numero: "#1/2025",
-            foco: "Grandes resultados começam com uma simples escolha",
-            dataProducao: "25/02",
+        // "rafmbr": {
+        //     nome: "Rafael de Menezes Barros",
+        //     foto: "../galeria/rafael.png",
+        //     grafico:"../galeria/testes.png",
+        //     nascimento: "1988-08-09",
+        //     plano: "Consultoria de treino",
+        //     frequencia: "4x semana",
+        //     numero: "#1/2025",
+        //     foco: "Grandes resultados começam com uma simples escolha",
+        //     dataProducao: "25/02",
 
-            objetivo_principal: "Condicionamento físico geral",
-            treinos: [
-                {texto: "Treino A ", url: "http://kaioguerrero.com/atletas/rafmbr_a" },
-                {texto: "Treino B ", url: "http://kaioguerrero.com/atletas/rafmbr_b"},
-                {texto: "Treino C ", url: "http://kaioguerrero.com/atletas/rafmbr_c"},
-                // {texto: "Treino D ", url: "http://kaioguerrero.com/atletas/rafmbr_d"},
+        //     objetivo_principal: "Condicionamento físico geral",
+        //     treinos: [
+        //         {texto: "Treino A ", url: "http://kaioguerrero.com/atletas/rafmbr_a" },
+        //         {texto: "Treino B ", url: "http://kaioguerrero.com/atletas/rafmbr_b"},
+        //         {texto: "Treino C ", url: "http://kaioguerrero.com/atletas/rafmbr_c"},
+        //         // {texto: "Treino D ", url: "http://kaioguerrero.com/atletas/rafmbr_d"},
                 
-            ],
-            testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1506518616&single=true"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
+        //     ],
+        //     testes:[
+        //         {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1506518616&single=true"}
+        //     ],
+        //     whats:[
+        //         {texto: "Fale comigo", 
+        //             url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+        //     ],
             
-        }
+        // }
     };
 
     // Pega a URL para determinar o atleta
