@@ -264,9 +264,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Hipertrofia",
             treinos: [
-                {texto: "Treino  só hoje 12/05", url: "http://kaioguerrero.com/atletas/caio_vcs_a"},
-                {texto: "Treino  13/05", url: "http://kaioguerrero.com/atletas/caio_vcs_b"},
-                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/caio_vcs_c"},
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/caio_vcs_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/caio_vcs_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/caio_vcs_c"},
                 // {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/caio_vcs_d"},
             ],
             testes:[
