@@ -551,6 +551,34 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Kawana": {
+            nome: "Miguel Chen Lee",
+            foto: "../galeria/miguelcl.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1999-05-08",
+            plano: "Consultoria de treino de corrida",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "Constância e paciênca são as chaves para o resultado",
+            dataProducao: "25/02",
+            
+            objetivo_principal: "Criar rotina, correr 21 k",
+            treinos: [
+                {texto: "Treino Perna A", url: "http://kaioguerrero.com/atletas/Kawana_a"},
+                {texto: "Treino Perna B", url: "http://kaioguerrero.com/atletas/Kawana_b"},
+           
+                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1hj3cCT86uTwwdlaToIqqWR9V2sXmohvTYZUGC6of18s/edit?usp=sharing" },
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1138847232&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         // "jessica_calixto": {
         //     nome: "Jessica Calixto",
         //     foto: "../galeria/jessica.png",
