@@ -579,6 +579,32 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "mtabosa": {
+            nome: "Murilo Tabosa",
+            foto: "../galeria/tabosa.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1981-08-10",
+            plano: "Consultoria de treino - basquete",
+            frequencia: "2x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "20/05",
+            
+            objetivo_principal: "Melhorar tomada de decisão em quadra",
+            treinos: [
+                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/mtabosa_a"},
+                {texto: "Rotina pré-jogo", url: "http://kaioguerrero.com/atletas/mtabosa_b"},
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         // "jessica_calixto": {
         //     nome: "Jessica Calixto",
         //     foto: "../galeria/jessica.png",
