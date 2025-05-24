@@ -67,9 +67,11 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Específico basquete",
             treinos: [
+                {texto: "Treino  Academia A", url: "http://kaioguerrero.com/atletas/André123_b"},
+                {texto: "Treino  Academia B", url: "http://kaioguerrero.com/atletas/André123_c"},
+                {texto: "Treino  Academia C", url: "http://kaioguerrero.com/atletas/André123_d"},
                 {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/André123_a"},
-                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Anasakamiti_b"},
-                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Anasakamiti_c"},
+                
                 
             ],
             testes:[

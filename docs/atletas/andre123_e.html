@@ -19,95 +19,81 @@
     <script>
         // No futuro isso pode ser carregado por uma API, por enquanto está mockado aqui
         var treino = [
-        
-            {
-                nome: 'Gato-vaca',
-                repeticoes: '15',
+        {
+                nome: 'Mobilidade ombro manguito',
+                repeticoes: '10',
                 series: '1',
                 peso: '0 kg ',
+                descanso: '10 segundos',
+                video: '../galeria/videos/mob_ombr_mang.mp4',
+            },
+            {
+                nome: 'Mobilidade mão no pé',
+                repeticoes: '10',
+                series: '1',
+                peso: '0 kg',
+                descanso: '10 segundos',
+                video: '../galeria/videos/mob_mao_pe.mp4',
+            },
+            
+            {
+                nome: 'Remada baixa fechada na máquina',
+                repeticoes: '10',
+                series: '3',
+                peso: '40 kg',
                 descanso: '30 segundos',
-                video: '../galeria/videos/mob_vac_gat.mp4',
-            },
-            {
-                nome: 'Abdominal Remador',
-                repeticoes: '15',
-                series: '4',
-                peso: '0',
-                descanso: '20 segundos',
-                video: '../galeria/videos/abd_rem.mp4',
-            },
-            {
-                nome: 'Prancha baixa',
-                repeticoes: '40 segundos',
-                series: '3',
-                peso: '0 kg',
-                descanso: '20 segundos',
-                video: '../galeria/videos/abd_pran_bai.mp4',
-            },   
-            {
-                nome: 'Sentar no banco unilateral',
-                repeticoes: '10',
-                series: '2',
-                peso: '0 kg ',
-                descanso: '40 segundos',
-                video: '../galeria/videos/per_sent_caix.mp4',
-            },
-            {
-                nome: 'Deslocamento lateral com elástico',
-                repeticoes: '10',
-                series: '3',
-                peso: 'elástico ',
-                descanso: '40 segundos',
-                video: '../galeria/videos/desl_lat.mp4',
-            },
-            {
-                nome: 'Subir na caixa',
-                repeticoes: '10',
-                series: '4',
-                peso: '0 kg',
-                descanso: '20 segundos',
-                video: '../galeria/videos/per_agac_uni_banco.mp4',
-            },  
-            {
-                nome: 'Agachamento com ketlebell',
-                repeticoes: '15',
-                series: '4',
-                peso: '12 kg',
-                descanso: '1 min',
-                video: '../galeria/videos/per_sumo.mp4',
-            },
-            {
-                nome: 'Desenvolvimento na máquina',
-                repeticoes: '10',
-                series: '4',
-                peso: '25 kg',
-                descanso: '20 segundos',
-                video: '../galeria/videos/omb_maq_des.mp4',
+                video: '../galeria/videos/cos_rem_baix_maq.mp4',
             },
             {
                 nome: 'Remada na máquina',
                 repeticoes: '10',
-                series: '4',
-                peso: '20',
+                series: '3',
+                peso: '20 kg cd lado',
                 descanso: '30 segundos',
                 video: '../galeria/videos/cos_rem_maqu_sent.mp4',
             },
             {
-                nome: 'Elevação lateral com halter',
+                nome: 'Puxada fechada',
                 repeticoes: '10',
                 series: '3',
-                peso: '3 kg',
+                peso: '40 kg',
                 descanso: '40 segundos',
-                video: '../galeria/videos/ms_omb_elev_lat.mp4',
+                video: '../galeria/videos/cos_pux_ab.mp4',
             },
             {
-                nome: 'Rosca martelo com halter',
+                nome: 'Rosca na polia',
                 repeticoes: '12',
                 series: '3',
-                peso: '7 kg ',
-                descanso: '50 segundos',
-                video: '../galeria/videos/bic_rosca_dir_halt.mp4',
+                peso: '15 kg ',
+                descanso: '20 segundos',
+                video: '../galeria/videos/bic_polia.mp4',
             },
+            {
+                nome: 'Rosca 21 (7-7-7)',
+                repeticoes: '7-7-7',
+                series: '3',
+                peso: '6 kg ',
+                descanso: '50 segundos',
+                video: '../galeria/videos/bic_ros_7.mp4',
+            },
+            {
+                nome: 'Encolhimento',
+                repeticoes: '15',
+                series: '3',
+                peso: '10 kg cd lado',
+                descanso: '20 segundos',
+                video: '../galeria/videos/ombro_encol.mp4',
+            },
+            {
+                nome: 'Polichinelo + agachamento',
+                repeticoes: '20',
+                series: '4',
+                peso: '0 kg',
+                descanso: '40 segundos',
+                video: '../galeria/videos/car_pol_agac.mp4',
+            },
+            
+           
             
             
         ];
@@ -129,10 +115,9 @@
             </nav>
     
         </header>
-
         <main>
             <section class="contato ">
-                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino A</header>
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino D</header>
 
 
                 <div class="container">
@@ -142,9 +127,9 @@
                     </div>
 
                     <form id="formularioCheckin" class="nome" action="https://formsubmit.co/kaiobg@hotmail.com" method="POST">
-                        <input type="text" class="input" name="Aluno/Atleta" placeholder="Seu nome" required />
+                        <input type="text" class="input" name="name" placeholder="Seu nome" required />
                         <div class="mensagem">
-                            <textarea cols="22" rows="5" class="input" name="Mensagem"
+                            <textarea cols="22" rows="5" class="input" name="mensagem"
                                 placeholder="Alguma consideração?"></textarea>
 
                         </div>
@@ -156,18 +141,13 @@
                 </div>
             </section>
 
-
-           
-            </section>
-        </main>
-
-        <div class="rodape"><!--cabeçalho da pagina com os botoes-->
-            <img class="tatoo3" src="../galeria/tatoo2.jpg">
-            <h2 class="eu"> Kaio Borges Guerrero</h2>
-        </div>
+      
+ </section>
+ </main>
+    <div class="rodape"><!--cabeçalho da pagina com os botoes-->
+     <img class="tatoo3" src="../galeria/tatoo2.jpg">
+     <h2 class="eu"> Kaio Borges Guerrero</h2>
     </div>
-
-    <script async src="atletaprototopo.js"></script>
-</body>
-
-</html>
+ </div>
+ <script async src="atletaprototopo.js"></script>
+ </body>
