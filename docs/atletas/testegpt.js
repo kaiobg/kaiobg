@@ -182,9 +182,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Fortalecer ombro, definição e ganho de massa",
             treinos: [
-                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Biagsilva_a"},
-                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Biagsilva_b"},
-                // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Biagsilva_c"},
+                // {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Biagsilva_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Biagsilva_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Biagsilva_c"},
                 // {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Biagsilva_carnaval"},
                 
             ],
@@ -596,7 +596,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/mtabosa_a"},
                 {texto: "Rotina pré-jogo", url: "http://kaioguerrero.com/atletas/mtabosa_b"},
-                
+                {texto: "Treino específico para basquete", url: "http://kaioguerrero.com/atletas/mtabosa_c"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
