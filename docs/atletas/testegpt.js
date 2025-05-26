@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro e joelho, hipertrofia e saúde",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Kabata_a"},
-                // {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Kabata_b"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Kabata_b"},
                 // {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Kabata_c"},
                 // {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Kabata_carnaval"},
             ],
