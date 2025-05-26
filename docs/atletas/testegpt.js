@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
-        "Andre123": {
+        "andre123": {
             nome: "André Sleutjes",
             foto: "../galeria/kaio_perfil.jpeg",
             grafico:"../galeria/testes.png",
@@ -67,10 +67,10 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Específico basquete",
             treinos: [
-                {texto: "Treino  Academia A", url: "http://kaioguerrero.com/atletas/Andre123_b"},
-                {texto: "Treino  Academia B", url: "http://kaioguerrero.com/atletas/Andre123_c"},
-                {texto: "Treino  Academia C", url: "http://kaioguerrero.com/atletas/Andre123_d"},
-                {texto: "Treino  Basquete", url:   "http://kaioguerrero.com/atletas/Andre123_a"},
+                {texto: "Treino  Academia A", url: "http://kaioguerrero.com/atletas/andre123_b"},
+                {texto: "Treino  Academia B", url: "http://kaioguerrero.com/atletas/andre123_c"},
+                {texto: "Treino  Academia C", url: "http://kaioguerrero.com/atletas/andre123_d"},
+                {texto: "Treino  Basquete", url:   "http://kaioguerrero.com/atletas/andre123_a"},
                 
                 
             ],
