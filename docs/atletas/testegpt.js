@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  Academia A", url: "http://kaioguerrero.com/atletas/Andre123_b"},
                 {texto: "Treino  Academia B", url: "http://kaioguerrero.com/atletas/Andre123_c"},
                 {texto: "Treino  Academia C", url: "http://kaioguerrero.com/atletas/Andre123_d"},
-                {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/Andre123_a"},
+                {texto: "Treino  Basquete", url:   "http://kaioguerrero.com/atletas/Andre123_a"},
                 
                 
             ],
