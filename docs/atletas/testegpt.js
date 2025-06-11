@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Biagsilva": {
             nome: "Beatriz Gonçalves Silva",
             foto: "../galeria/bia.jpg",
-            grafico:"../galeria/testes.png",
+            grafico:"../galeria/biat.png",
             nascimento: "1994-09-02",
             plano: "Presencial 2x/semana",
             frequencia: "3x semana",
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=498235900&single=true"}
+                {texto: "Teste Antropométrico", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2126745745&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "caio_vcs": {
             nome: "Caio Vinicius Castro",
             foto: "../galeria/caioj.jpg",
-            grafico:"../galeria/caiojt.png",
+            grafico:"../galeria/caiojteste.png",
             nascimento: "1999-10-21",
             plano: "Consultoria online",
             frequencia: "4x semana",
@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/caio_vcs_d"},
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=600279512&single=true"}
+                {texto: "Teste Antropométrico", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=817220989&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Kabata": {
             nome: "Daniel Kabata",
             foto: "../galeria/daniel.jpg",
-            grafico:"../galeria/testes.png",
+            grafico:"../galeria/danielt.png",
             nascimento: "1992-03-17",
             plano: "Presencial 2x/semana",
             frequencia: "3x semana",
@@ -355,7 +355,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // {texto: "Treino  Carnaval", url: "http://kaioguerrero.com/atletas/Kabata_carnaval"},
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
+                {texto: "Teste antropométrico", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1399346739&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -545,7 +545,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=1138847232&single=true"}
+                {texto: "Teste Antropométrico", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=481083217&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
