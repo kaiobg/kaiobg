@@ -760,7 +760,7 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Simioni_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Simioni_b" },
-                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
+                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
                 // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Simioni_d" },
                 // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Simioni_casa" },
             ],
