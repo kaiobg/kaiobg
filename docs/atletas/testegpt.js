@@ -703,7 +703,7 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Treinos focados em emagrecimento, saúde e condicionamento",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
-                { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
+                // { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
                 // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Marinaggm_c" },
                 // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Marinaggm_d" },
                 // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Marinaggm_casa" },
