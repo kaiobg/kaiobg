@@ -54,6 +54,33 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Alexia": {
+            nome: "Alexia Carolina",
+            foto: "../galeria/alexia.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1984-06-23",
+            plano: "Consultoria",
+            frequencia: "5x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "30/06",
+            
+            objetivo_principal: "Fortalecer joelho PO, melhorar saúde física",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Alexia_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Alexia_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Alexia_c"},
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "andre": {
             nome: "André Sleutjes",
             foto: "../galeria/kaio_perfil.jpeg",
@@ -383,6 +410,33 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Je112523": {
+            nome: "Jéssica Pereira",
+            foto: "../galeria/jessicap.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1984-06-23",
+            plano: "Consultoria",
+            frequencia: "5x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "30/06",
+            
+            objetivo_principal: "Perder peso e melhorar saúde física",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Je112523_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Je112523_b"},
+                
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
