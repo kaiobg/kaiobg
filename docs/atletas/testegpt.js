@@ -293,10 +293,10 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Hipertrofia",
             treinos: [
-                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/caio_vcs_a"},
-                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/caio_vcs_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/caio_vcs_c"},
-                // {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/caio_vcs_d"},
+                {texto: "Treino  Costas e Biceps", url: "http://kaioguerrero.com/atletas/caio_vcs_a"},
+                {texto: "Treino  Posterior", url: "http://kaioguerrero.com/atletas/caio_vcs_b"},
+                {texto: "Treino  Peito, triceps e ombro", url: "http://kaioguerrero.com/atletas/caio_vcs_c"},
+                {texto: "Treino  Anterior", url: "http://kaioguerrero.com/atletas/caio_vcs_d"},
             ],
             testes:[
                 {texto: "Teste Antropométrico", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=817220989&single=true"}
@@ -324,8 +324,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/camsnog_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/camsnog_b"},
-                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/camsnog_c"},
-                {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/camsnog_d"},
+                {texto: "Treino  Tabata", url: "http://kaioguerrero.com/atletas/camsnog_c"},
+                // {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/camsnog_d"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2077775025&single=true"}
