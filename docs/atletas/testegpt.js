@@ -514,7 +514,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/luiznochi_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/luiznochi_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/luiznochi_c"},
-                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/luiznochi_d"},
+                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/luiznochi_d"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2017369885&single=true"}
@@ -785,7 +785,8 @@ document.addEventListener("DOMContentLoaded", () => {
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_b" },
-                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
+                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
+                { texto: "Treino D", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_e" },
                 {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 // { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
             ],
