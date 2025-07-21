@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  Academia A", url: "http://kaioguerrero.com/atletas/andre_b"},
                 {texto: "Treino  Academia B", url: "http://kaioguerrero.com/atletas/andre_c"},
                 {texto: "Treino  Academia C", url: "http://kaioguerrero.com/atletas/andre_d"},
+                {texto: "Treino  Academia D", url: "http://kaioguerrero.com/atletas/andre_e"},
                 {texto: "Treino  Basquete", url:   "http://kaioguerrero.com/atletas/andre_a"},
                 
                 
@@ -477,17 +478,17 @@ document.addEventListener("DOMContentLoaded", () => {
             grafico:"../galeria/leoneco1.png",
             nascimento: "1994-04-03",
             plano: "Consultoria de treino",
-            frequencia: "3x semana",
-            numero: "#1/2025",
+            frequencia: "4x semana",
+            numero: "#4/2025",
             foco: "A constância molda resultados",
-            dataProducao: "20/2",
+            dataProducao: "20/7",
             
             objetivo_principal: "Condicionamento físico e qualidade de vida",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/llneco_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/llneco_c"},
-                // {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
+                {texto: "Treino  D", url: "http://kaioguerrero.com/atletas/llneco_d"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=2017369885&single=true"}
@@ -505,9 +506,9 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "1995-08-22",
             plano: "Consultoria de treino",
             frequencia: "4x semana",
-            numero: "#2/2025",
+            numero: "#6/2025",
             foco: "A constância molda resultados",
-            dataProducao: "25/2",
+            dataProducao: "20/7",
             
             objetivo_principal: "Condicionamento físico e qualidade de vida",
             treinos: [
@@ -587,7 +588,7 @@ document.addEventListener("DOMContentLoaded", () => {
             frequencia: "4x semana",
             numero: "#1/2025",
             foco: "Constância é a chave para o resultado",
-            dataProducao: "25/02",
+            dataProducao: "25/07",
             
             objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
             treinos: [
@@ -614,7 +615,7 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "1999-05-08",
             plano: "Consultoria de treino de corrida",
             frequencia: "3x semana",
-            numero: "#1/2025",
+            numero: "#2/2025",
             foco: "Constância e paciênca são as chaves para o resultado",
             dataProducao: "25/02",
             
@@ -725,15 +726,15 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "1996-05-12",
             plano: "Presencial 1x por semana / 3x lição de casa",
             frequencia: "4x semana",
-            numero: "#1/2025",
+            numero: "#4/2025",
             foco: "Bora lá que você consegue",
-            dataProducao: "25/02",
+            dataProducao: "20/07",
             
             objetivo_principal: "Fortalecimento geral, fortalecimento específico de músculos para forçar menos o joelho, melhora da postura",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/nathipg_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/nathipg_b" },
-                { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/nathipg_c" },
+                // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/nathipg_c" },
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=308239942&single=true"}
@@ -751,14 +752,14 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "1990-02-16",
             plano: "Presencial 2x por semana/ 2x academia",
             frequencia: "4x semana",
-            numero: "#1/2025",
+            numero: "#6/2025",
             foco: "Cuidado com a lombar",
-            dataProducao: "25/02",
+            dataProducao: "20/07",
             objetivo_principal: "Treinos focados em emagrecimento, saúde e condicionamento",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
-                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Marinaggm_c" },
+                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Marinaggm_c" },
                 // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Marinaggm_d" },
                 // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Marinaggm_casa" },
             ],
@@ -806,16 +807,16 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "1990-07-28",
             plano: "Presencial 2x por semana/ 2x academia",
             frequencia: "4x semana",
-            numero: "#1/2025",
+            numero: "#6/2025",
             foco: "Para de ficar lavando couve",
-            dataProducao: "25/22",
+            dataProducao: "20/07",
             
 
             objetivo_principal: "Treinos focados em emagrecimento, saúde e prevenção de lesão",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Simioni_a" },
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Simioni_b" },
-                { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
+                // { texto: "Treino C", url: "http://kaioguerrero.com/atletas/Simioni_c" },
                 // { texto: "Treino D", url: "http://kaioguerrero.com/atletas/Simioni_d" },
                 // { texto: "Treino Casa", url: "http://kaioguerrero.com/atletas/Simioni_casa" },
             ],

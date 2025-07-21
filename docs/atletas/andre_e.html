@@ -4,38 +4,39 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="10800; URL='https://kaioguerrero.com/atleta'" />
-
+    <meta http-equiv="refresh" content="10800; URL='https://kaioguerrero.com/atleta'"/>
     <title class="eu">Treinador Individual Kaio </title>
-
     <link REL="SHORTCUT ICON" HREF="../galeria/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../geral.css" />
     <link rel="stylesheet" href="../atletamodelo.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
 
     <script>
         // No futuro isso pode ser carregado por uma API, por enquanto está mockado aqui
         var treino = [
-         {
-                nome: 'Mobilidade abrir o joelho',
-                repeticoes: '10',
-                series: '1',
+             {
+                nome: 'Fortalecimento de joelho (empurrar para fora)',
+                repeticoes: '15',
+                series: '2',
                 peso: '0 kg ',
-                descanso: '10 segundos',
-                video: '../galeria/videos/mob_abrindo_jo.mp4',
+                descanso: '25 segundos',
+                video: '../galeria/videos/per_af_dent.mp4',
             },
             {
-                nome: 'Mobilidade de quadril',
-                repeticoes: '10',
-                series: '1',
-                peso: '0 kg',
-                descanso: '0 segundos',
-                video: '../galeria/videos/mob_quad_ext.mp4',
-            },
-            {
+                nome: 'Fortalecimento de joelho (empurrar para dentro)',
+                repeticoes: '15',
+                series: '2',
+                peso: '0',
+                descanso: '20 segundos',
+                video: '../galeria/videos/per_af_for.mp4',
+            }, 
+        
+        {
                 nome: 'Mobilidade mão no pé',
                 repeticoes: '10',
                 series: '1',
@@ -51,45 +52,19 @@
                 descanso: '20 segundos',
                 video: '../galeria/videos/mob_tornozelo.mp4',
             }, 
-            {
-                nome: 'Elevação pélvica (última série morte)',
-                repeticoes: '12',
-                series: '4',
-                peso: '80 kg',
-                descanso: '50 segundos',
-                video: '../galeria/videos/per_elev_pel_maq.mp4',
-            },
-            {
-                nome: 'Coice na máquina',
-                repeticoes: '10',
+        {
+                nome: 'Subir no banco',
+                repeticoes: '8',
                 series: '3',
-                peso: '40 kg',
-                descanso: '30 segundos',
-                video: '../galeria/videos/per_coice_maq.mp4',
-            },
-            {
-                nome: 'Cadeira flexora ',
-                repeticoes: '10',
-                series: '3',
-                peso: '50 kg',
-                descanso: '40 segundos',
-                video: '../galeria/videos/per_flex_maq.mp4',
-            },
-           
-            {
-                nome: 'Panturrilha sentado',
-                repeticoes: '15',
-                series: '3',
-                peso: '30 kg',
-                descanso: '30 segundos',
-                video: '../galeria/videos/pant_sent.mp4',
-            },
-           
+                peso: '20 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/per_agac_uni_banco.mp4',
+            },    
         {
                 nome: 'Leg Press (última série morte)',
                 repeticoes: '10',
-                series: '3',
-                peso: '100 kg',
+                series: '4',
+                peso: '180 kg',
                 descanso: '50 segundos',
                 video: '../galeria/videos/per_leg_45.mp4',
             },
@@ -105,19 +80,27 @@
                 nome: 'Cadeira extensora unilateral',
                 repeticoes: '10',
                 series: '3',
-                peso: '40 kg',
+                peso: '30 kg',
                 descanso: '50 segundos',
                 video: '../galeria/videos/per_ext_maq.mp4',
             },   
-           
             {
-                nome: 'Agachamento de frente no hack (não lembro se tem, se não tiver, agac com salto)',
+                nome: 'Cadeira adutora',
+                repeticoes: '15',
+                series: '3',
+                peso: '80 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/per_adu_maq.mp4',
+            },   
+            {
+                nome: 'Agachamento de frente no hack ',
                 repeticoes: '10',
                 series: '3',
                 peso: '60 kg',
                 descanso: '40 segundos',
                 video: '../galeria/videos/per_hack_inv.mp4',
             },
+           
         ];
     </script>
 </head>
@@ -140,7 +123,8 @@
 
         <main>
             <section class="contato ">
-                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino B</header>
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino D</header>
+
 
                 <div class="container">
 
@@ -149,10 +133,11 @@
                     </div>
 
                     <form id="formularioCheckin" class="nome" action="https://formsubmit.co/kaiobgmartins@gmail.com" method="POST">
-                        <input type="text" class="input" name="Aluno/Atleta" placeholder="Seu nome" required />
+                        <input type="text" class="input" name="name" placeholder="Seu nome" required />
                         <div class="mensagem">
-                            <textarea cols="22" rows="5" class="input" name="Mensagem"
+                            <textarea cols="22" rows="5" class="input" name="mensagem"
                                 placeholder="Alguma consideração?"></textarea>
+
                         </div>
                         <input type="hidden" class="input" name="_next" value="https://kaioguerrero.com/atleta.html" />
                         <input type="hidden" name="_captcha" value="false">
@@ -162,7 +147,7 @@
                 </div>
             </section>
 
-        
+       
  </section>
  </main>
     <div class="rodape"><!--cabeçalho da pagina com os botoes-->
