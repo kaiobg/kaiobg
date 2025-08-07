@@ -322,10 +322,10 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Ganhar resistência na corrida e prevenção de lesão",
             treinos: [
                 {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1N6WoPysUvi-_C3rfH8zPflxO40ob7HMifJHIWpOnq_c/edit?usp=sharing"},
-                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
-                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/camsnog_a"},
-                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/camsnog_b"},
-                {texto: "Treino  Tabata", url: "http://kaioguerrero.com/atletas/camsnog_c"},
+                // {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
+                {texto: "Treino  Braço", url: "http://kaioguerrero.com/atletas/camsnog_a"},
+                {texto: "Treino  Perna", url: "http://kaioguerrero.com/atletas/camsnog_b"},
+                // {texto: "Treino  Tabata", url: "http://kaioguerrero.com/atletas/camsnog_c"},
                 // {texto: "Treino  Casa", url: "http://kaioguerrero.com/atletas/camsnog_d"},
             ],
             testes:[
