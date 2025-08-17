@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Alexia_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/Alexia_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/Alexia_c"},
-                
+                { texto: "Treino Joelho novo", url: "http://kaioguerrero.com/atletas/joelho_novo" },
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
@@ -592,10 +592,10 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
             treinos: [
-                {texto: "Treino Diário", url: "http://kaioguerrero.com/atletas/gabriel_peagno_a"},
-                {texto: "Treino Completo", url: "http://kaioguerrero.com/atletas/gabriel_peagno_b"},
-                {texto: "Treino Metabólico", url: "http://kaioguerrero.com/atletas/gabriel_peagno_d"},
-                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel_peagno_c"},
+                {texto: "Treino A", url: "http://kaioguerrero.com/atletas/gabriel_peagno_a"},
+                {texto: "Treino B", url: "http://kaioguerrero.com/atletas/gabriel_peagno_b"},
+                // {texto: "Treino Metabólico", url: "http://kaioguerrero.com/atletas/gabriel_peagno_d"},
+                // {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel_peagno_c"},
                 { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1iiu6vaaa4803hvowzGfDG_Pd6j_8-LPz7OWbcy2wHfQ/edit?usp=sharing" },
                 
             ],
@@ -788,6 +788,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_b" },
                 { texto: "Treino C", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_d" },
                 { texto: "Treino D", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_e" },
+                { texto: "Treino Joelho novo", url: "http://kaioguerrero.com/atletas/joelho_novo" },
                 {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 // { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
             ],
