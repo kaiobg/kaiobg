@@ -34,6 +34,10 @@ const SendWorkout = (props) => {
     };
 
     dispatch(CheckInSlice.actions.saveCheckIn(workoutData));
+    dispatch(UserSlice.actions.saveUser({
+      lastCheckInDate: now,
+      uid: loggedUser.uid,
+    }));
 
     setComment('');
   }, [ comment, completedExercises, dispatch, loggedUser.uid, workout ]);

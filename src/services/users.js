@@ -9,6 +9,10 @@ export const loadUsers = async () => {
   return await firebaseService.user.loadUsers();
 };
 
+export const saveUser = async (data) => {
+  return await firebaseService.user.saveUser(data);
+};
+
 export const saveUserWorkouts = async (data) => {
   return await firebaseService.user.saveUserWorkouts(data);
 };

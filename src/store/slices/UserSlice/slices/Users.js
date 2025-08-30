@@ -17,6 +17,10 @@ const initialState = {
   saveUserWorkoutsStatus: REQUEST_STATUS.IDLE,
   saveUserWorkoutsError: null,
   saveUserWorkoutsMessage: null,
+
+  saveUserStatus: REQUEST_STATUS.IDLE,
+  saveUserError: null,
+  saveUserSuccessMessage: null,
 };
 
 // Reducers
@@ -30,12 +34,19 @@ const reducers = {
   clearSaveUserWorkoutsMessage: (state) => {
     state.saveUserWorkoutsMessage = null;
   },
+  clearSaveUserSuccessMessage: (state) => {
+    state.saveUserSuccessMessage = null;
+  },
+  clearSaveUserState: (state) => {
+    state.saveUserStatus = REQUEST_STATUS.IDLE;
+  },
 };
 
 // Async Thunk
 const asyncThunk = {
   loadUsers: createAsyncThunk(`${USER_SLICE_NAME}/loadUsers`, async () => await usersService.loadUsers()),
   saveUserWorkouts: createAsyncThunk(`${USER_SLICE_NAME}/saveUserWorkouts`, async (data) => await usersService.saveUserWorkouts(data)),
+  saveUser: createAsyncThunk(`${USER_SLICE_NAME}/saveUser`, async (data) => await usersService.saveUser(data)),
 };
 
 // Extra Reducers
@@ -67,6 +78,20 @@ const extraReducers = (builder) => {
       state.saveUserWorkoutsError = t(`error-message.save-user-workouts.${action.error.code}`);
     })
   ;
+
+  builder
+    .addCase(asyncThunk.saveUser.pending, (state) => {
+      state.saveUserStatus = REQUEST_STATUS.LOADING;
+    })
+    .addCase(asyncThunk.saveUser.fulfilled, (state) => {
+      state.saveUserStatus = REQUEST_STATUS.SUCCEEDED;
+      state.saveUserSuccessMessage = t('Saved');
+    })
+    .addCase(asyncThunk.saveUser.rejected, (state, action) => {
+      state.saveUserStatus = REQUEST_STATUS.FAILED;
+      state.saveUserError = t(`error-message.save-user.${action.error.code}`);
+    })
+  ;
 };
 
 // Selectors
@@ -85,6 +110,15 @@ const selectors = {
   },
   selectSaveUserWorkoutsMessage: (state) => {
     return state.users.saveUserWorkoutsMessage;
+  },
+  selectSaveUserError: (state) => {
+    return state.users.saveUserError;
+  },
+  selectSaveUserStatus: (state) => {
+    return state.users.saveUserStatus;
+  },
+  selectSaveUserSuccessMessage: (state) => {
+    return state.users.saveUserSuccessMessage;
   },
 };
 

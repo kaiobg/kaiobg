@@ -46,6 +46,15 @@ export const loadUsers = async () => {
   return users;
 };
 
+export const saveUser = async (data) => {
+  const { uid, ...otherData } = data;
+
+  const userRef = doc(db, DB_KEYS.USERS, uid);
+
+  await setDoc(userRef, { ...otherData }, { merge: true });
+
+  return data;
+};
 
 export const saveUserWorkouts = async (data) => {
   const { uid, workouts } = data;
