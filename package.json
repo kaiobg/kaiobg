@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nathipg.github.io/site-kaio/",
+  "homepage": "https://kaioguerrero.com/",
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn run build",
@@ -13,7 +13,7 @@
     "lint": "npx eslint --fix .",
     "preview": "vite preview",
     "firebase-login": "firebase login",
-    "firestore-deploy-rules": "firebase deploy --only firestore:rules -P site-kaio"
+    "firestore-deploy-rules": "firebase deploy --only firestore:rules -P site-kaio-b95f2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
