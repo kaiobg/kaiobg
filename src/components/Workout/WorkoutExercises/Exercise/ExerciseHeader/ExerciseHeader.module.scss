@@ -1,0 +1,15 @@
+@use '@/styles/colors';
+
+.ExerciseHeader {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ExerciseHeaderText {
+  display: flex;
+  gap: 0.5rem;
+  color: colors.$blue;
+  white-space: nowrap;
+}

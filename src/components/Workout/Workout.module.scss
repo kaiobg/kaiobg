@@ -1,0 +1,18 @@
+@use '@/styles/colors';
+@use '@/styles/spacing';
+@use '@/styles/screen-sizes.scss' as screenSizes;
+
+.Workout {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid colors.$light-gray;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  width: calc(100% - spacing.$content-container-horizontal-sm * 4);
+
+  @media (min-width: screenSizes.$md) {
+    max-width: screenSizes.$md;
+  }
+}

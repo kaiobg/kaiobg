@@ -1,0 +1,11 @@
+@use '@/styles/spacing';
+
+$remove-horizontal-spacing: spacing.$content-container-horizontal-sm * -1;
+$remove-vertical-spacing: spacing.$content-container-vertical-sm * -1;
+
+.HomePage {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

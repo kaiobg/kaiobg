@@ -1,0 +1,26 @@
+@use 'sass:color';
+
+@mixin background-with-hover($color) {
+  background-color: $color;
+
+  &:hover {
+    background-color: lightenColor($color, -20%);
+  }
+}
+
+@mixin color-with-hover($color) {
+  color: $color;
+
+  &:hover {
+    color: lightenColor($color, -20%);
+  }
+}
+
+@function hoverColor($color) {
+  @return lightenColor($color, -20%);
+}
+
+/* $amount must be in percentage e.g. -20% */
+@function lightenColor($color, $amount) {
+  @return color.adjust($color, $lightness: $amount);
+}

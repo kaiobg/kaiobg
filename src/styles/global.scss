@@ -1,0 +1,30 @@
+@use '@/styles/colors';
+
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/InterVariable.woff2') format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:not(svg, svg *) {
+  color: colors.$black;
+}
+
+body, input, textarea, button {
+  font-family: 'InterVariable', sans-serif;
+  font-size: 1rem;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

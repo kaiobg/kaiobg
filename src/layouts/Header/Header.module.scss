@@ -1,0 +1,85 @@
+@use '@/styles/colors';
+@use '@/styles/typography';
+@use '@/styles/screen-sizes.scss' as screenSizes;
+
+.Header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(180deg, colors.$dark-red, #141d32);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  @include typography.body;
+
+  .logo {
+    z-index: 3;
+    a {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      text-decoration: none;
+      @include typography.heading-5;
+      
+      span {
+        color: colors.$white;
+      }
+    }
+  }
+
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+    a {
+      color: colors.$white;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom 0.3s;
+
+      &:hover {
+        border-bottom: 2px solid colors.$red;
+      }
+    }
+  }
+
+  .menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: colors.$white;
+    padding: 0.5rem;
+  }
+
+  @media (max-width: screenSizes.$md) {
+    padding: 1rem;
+
+    .menuToggle {
+      display: block;
+      z-index: 2;
+    }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      background-color: colors.$dark-red;
+      padding: 8rem 2rem 1rem;
+      transition: right 0.3s ease;
+      box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+      @include typography.subtitle;
+
+      &.active {
+        right: 0;
+      }
+    }
+  }
+}

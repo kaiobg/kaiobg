@@ -1,0 +1,22 @@
+@use '@/styles/colors';
+@use '@/styles/typography';
+@use '@/styles/screen-sizes' as screenSizes;
+
+.PublicationsPage {
+  .header {
+    border-bottom: 2px solid colors.$dark-red;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    @include typography.heading-3;
+  }
+  .publicationsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    
+    @media (min-width: screenSizes.$md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+

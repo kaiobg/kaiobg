@@ -1,0 +1,111 @@
+// Base size
+$base-size: 1rem;
+
+// Type scale using a 1.25 ratio (major third)
+$scale: 1.25;
+
+// Major Third type scale function
+// base: starting size (default: 1rem = 16px)
+// ratio: scale factor (default: 1.25)
+// step: position on the scale (0 = base, positive = larger, negative = smaller)
+@function type-scale($step, $base: $base-size, $ratio: $scale) {
+  @return $base * pow($ratio, $step);
+}
+
+// Font sizes
+$font-sm: type-scale(-1);  // 12.8px / 0.8rem
+$font-base: type-scale(0); // 16px / 1rem
+$font-md: type-scale(1);   // 20px / 1.25rem
+$font-lg: type-scale(2);   // 25px / 1.56rem
+$font-xl: type-scale(3);   // 31.25px / 1.95rem
+$font-2xl: type-scale(4);  // 39.06px / 2.44rem
+$font-3xl: type-scale(5);  // 48.83px / 3.05rem
+
+// Line heights
+$leading-tight: 1.2;
+$leading-normal: 1.5;
+$leading-loose: 1.8;
+
+// Font weights
+$weight-light: 300;
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+// Text utilities
+@mixin text-sm {
+  font-size: $font-sm;
+  line-height: $leading-normal;
+}
+
+@mixin text-base {
+  font-size: $font-base;
+  line-height: $leading-normal;
+}
+
+@mixin text-md {
+  font-size: $font-md;
+  line-height: $leading-normal;
+}
+
+@mixin text-lg {
+  font-size: $font-lg;
+  line-height: $leading-tight;
+}
+
+@mixin text-xl {
+  font-size: $font-xl;
+  line-height: $leading-tight;
+}
+
+@mixin text-2xl {
+  font-size: $font-2xl;
+  line-height: $leading-tight;
+}
+
+@mixin text-3xl {
+  font-size: $font-3xl;
+  line-height: $leading-tight;
+}
+
+// Typography scale mixins
+@mixin heading-1 {
+  @include text-3xl;
+  font-weight: $weight-bold;
+}
+
+@mixin heading-2 {
+  @include text-2xl;
+  font-weight: $weight-bold;
+}
+
+@mixin heading-3 {
+  @include text-xl;
+  font-weight: $weight-semibold;
+}
+
+@mixin heading-4 {
+  @include text-lg;
+  font-weight: $weight-semibold;
+}
+
+@mixin heading-5 {
+  @include text-md;
+  font-weight: $weight-semibold;
+}
+
+@mixin subtitle {
+  @include text-md;
+  font-weight: $weight-medium;
+}
+
+@mixin body {
+  @include text-base;
+  font-weight: $weight-regular;
+}
+
+@mixin caption {
+  @include text-sm;
+  font-weight: $weight-regular;
+}

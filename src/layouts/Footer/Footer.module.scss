@@ -1,0 +1,36 @@
+@use '@/styles/colors';
+@use '@/styles/typography';
+@use '@/styles/screen-sizes.scss' as screenSizes;
+
+.Footer {
+  background: colors.$light-gray;
+  padding: 1rem 2rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;    
+    text-align: center;
+
+    @media (min-width: screenSizes.$md) {
+      flex-direction: row;
+      text-align: initial;
+    }
+
+    .logoSection {
+      display: flex;
+      place-items: center;
+      gap: 0.5rem;
+      p {
+        color: rgba(colors.$black, 0.8);
+      }
+    }
+  }
+
+  .copy {
+    @include typography.caption;
+    color: rgba(colors.$black, 0.8);
+  }
+}

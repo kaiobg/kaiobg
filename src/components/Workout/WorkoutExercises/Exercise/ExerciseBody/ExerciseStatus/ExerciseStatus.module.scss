@@ -1,0 +1,20 @@
+@use '@/styles/colors';
+
+.ExerciseStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: colors.$light-gray;
+  width: 2rem;
+  height: 2rem;
+
+  &:not([data-mode="HISTORY"]) {
+    cursor: pointer;
+  }
+
+  &.ExerciseCompleted {
+    background-color: rgba(colors.$green, 0.3);
+    color: colors.$green;
+  }
+}
