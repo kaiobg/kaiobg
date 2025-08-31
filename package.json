@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nathipg.github.io/site-kaio/",
+  "homepage": "https://kaioguerrero.com/",
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn run build",
@@ -13,7 +13,7 @@
     "lint": "npx eslint --fix .",
     "preview": "vite preview",
     "firebase-login": "firebase login",
-    "firestore-deploy-rules": "firebase deploy --only firestore:rules -P site-kaio"
+    "firestore-deploy-rules": "firebase deploy --only firestore:rules -P site-kaio-b95f2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -24,6 +24,7 @@
     "i18next": "^25.3.1",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^3.0.2",
+    "quill-image-resize-module-react": "^3.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-i18next": "^15.6.0",
