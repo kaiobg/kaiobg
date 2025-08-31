@@ -60,7 +60,11 @@ const ResumePage = () => {
           description="Cada pessoa possui sua própria lista de objetivos e, quando relacionado ao corpo, exercício físico e as infinitas possibilidades que podem ser trabalhadas, estar com um profissional capacitado faz toda a diferença. Independente se a meta for melhoria na qualidade de vida, emagrecimento, ganho de força, hipertrofia, dentre outros, ter um profissional capacitado faz toda a diferença. Atuo nesta vertente, desde o ínico de minha formação, em 2013. Lá, a demanda inicial eram os estudantes universitários que moravam na Moradia - Unicamp, em um projeto chamado: Moradia, Esporte e Lazer."
           image={resumeImages.kaio_perfil}
         />
-
+        <ExperienceCard
+          title="Consultor de performance"
+          description="Ajustes técnicos e consultoria especializada em performance esportiva e otimização de movimento."
+          image={resumeImages.kaio_perfil}
+        />
         <ExperienceCard
           title="Treinador personalizado de basquete"
           description="Com o objetivo de corrigir detalhes e focar nas defasagens do atleta, o trabalho pode ser realizado nas mais diversas situações e locais. Seja para praticantes amadores, atletas profissionais ou até mesmo atletas em desenvolvimento (jogador de categorias de base). O trabalho é extremamente personalizado de acordo com a dificuldade de cada atleta, podendo ter correções em arremesso, aspectos defensivos, coordenativos, entre outros."
