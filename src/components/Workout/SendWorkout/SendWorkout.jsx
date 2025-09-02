@@ -48,9 +48,10 @@ const SendWorkout = (props) => {
 
   useEffect(() => {
     if(saveCheckInMessage != null) {
+      dispatch(CheckInSlice.actions.clearSaveCheckInMessage());
       onCompleteWorkout();
     }
-  }, [ onCompleteWorkout, saveCheckInMessage ]);
+  }, [ dispatch, onCompleteWorkout, saveCheckInMessage ]);
   
   return (
     <>

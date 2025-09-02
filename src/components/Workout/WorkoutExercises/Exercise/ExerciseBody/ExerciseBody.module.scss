@@ -1,35 +1,42 @@
 .ExerciseBody {
-  display: grid; 
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 0.5rem; 
-  grid-template-areas: 
-    '. .'
-    '. .'
-    'video video';
-
-  &:not([data-mode="EDIT"]) {
-    grid-template-columns: 1fr 1fr auto;
+  &:not([data-exercise-id="external_link"]) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0.5rem; 
     grid-template-areas: 
-    '. . status'
-    '. . status'
-    'video video video';
+      '. .'
+      '. .'
+      'video video';
+
+    &:not([data-mode="EDIT"]) {
+      grid-template-columns: 1fr 1fr auto;
+      grid-template-areas: 
+      '. . status'
+      '. . status'
+      'video video video';
+
+      @media(min-width: 26rem) {
+        grid-template-columns: 1fr 1fr 1fr 1fr auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+          '. . . . status'
+          'video video video video video';
+      }
+    }
 
     @media(min-width: 26rem) {
-      grid-template-columns: 1fr 1fr 1fr 1fr auto;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: auto auto;
       grid-template-areas: 
-        '. . . . status'
-        'video video video video video';
+        '. . . .'
+        'video video video video';
     }
   }
 
-  @media(min-width: 26rem) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-      '. . . .'
-      'video video video video';
+  &[data-exercise-id="external_link"] {
+    display: flex;
+    justify-content: space-between;
   }
 }
 

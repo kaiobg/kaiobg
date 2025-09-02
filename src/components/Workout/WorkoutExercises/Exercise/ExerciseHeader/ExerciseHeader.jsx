@@ -2,6 +2,7 @@ import { memo, useCallback, useMemo, useRef } from 'react';
 import { useSelector } from 'react-redux';
 
 import { ExpandCollapseArrow, RemoveIconButton, RemoveWorkoutExerciseConfirmDialog, Select, WorkoutConstants } from '@/components';
+import { FIXED_EXERCISES, FIXED_EXERCISES_LIST } from '@/constants';
 import { ExerciseSlice } from '@/store/slices';
 
 import styles from './ExerciseHeader.module.scss';
@@ -30,7 +31,7 @@ const ExerciseHeader = (props) => {
 
   const renderExerciseEditMode = useCallback(() => {
     const renderExercises = () => {
-      return dbExercises.map(dbExercise => {
+      return [ ...FIXED_EXERCISES_LIST, ...dbExercises ].map(dbExercise => {
         return <option key={dbExercise.id} value={dbExercise.id}>{dbExercise.title}</option>;
       });
     };
@@ -54,6 +55,10 @@ const ExerciseHeader = (props) => {
 
   const renderExercise = useCallback(() => {
     if(mode != WorkoutConstants.WORKOUT_MODES.EDIT) {
+      if(exercise.exerciseId == FIXED_EXERCISES.EXTERNAL_LINK.id) {
+        return <></>;
+      }
+
       return (
         <span onClick={onClickHeader}>
           {dbExercise?.title}
@@ -62,10 +67,14 @@ const ExerciseHeader = (props) => {
     }
     
     return renderExerciseEditMode();
-  }, [ dbExercise?.title, mode, onClickHeader, renderExerciseEditMode ]);
+  }, [ dbExercise?.title, exercise.exerciseId, mode, onClickHeader, renderExerciseEditMode ]);
 
   const renderArrow = useCallback(() => {
     if(!exercise?.exerciseId) {
+      return <></>;
+    }
+
+    if(exercise.exerciseId == FIXED_EXERCISES.EXTERNAL_LINK.id) {
       return <></>;
     }
 

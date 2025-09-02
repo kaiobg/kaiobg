@@ -1,3 +1,18 @@
+export const EXERCISE_DETAIL_SPECIAL_PROPERTIES = Object.freeze({
+  LINK: 'LINK',
+});
+
+export const FIXED_EXERCISES = Object.freeze({
+  EXTERNAL_LINK: Object.freeze({
+    id: 'external_link',
+    title: 'Link Externo',
+  }),
+});
+
+export const FIXED_EXERCISES_LIST = Object.freeze([
+  FIXED_EXERCISES.EXTERNAL_LINK,
+]);
+
 export const REQUEST_STATUS = Object.freeze({
   IDLE: 'idle',
   LOADING: 'loading',

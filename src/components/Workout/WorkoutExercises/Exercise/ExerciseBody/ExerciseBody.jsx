@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 
 import { Video, WorkoutConstants } from '@/components';
+import { EXERCISE_DETAIL_SPECIAL_PROPERTIES, FIXED_EXERCISES } from '@/constants';
 import { ExerciseSlice } from '@/store/slices';
 
 import { ExerciseDetail } from './ExerciseDetail';
@@ -13,7 +14,7 @@ import styles from './ExerciseBody.module.scss';
 const ExerciseBody = (props) => {
   const { onChangeExerciseStatus, setExerciseProperty } = props;
   const { exercise, completedExercises, isExpanded, mode } = props;
-  const { id, sets, reps, weight, rest } = exercise;
+  const { id, sets, reps, weight, rest, link = '' } = exercise;
 
   const { t } = useTranslation();
 
@@ -53,18 +54,35 @@ const ExerciseBody = (props) => {
     ) : <></>;
   }, [ dbExercise?.videoUrl, isExpanded ]);
 
-  return (
-    <div className={styles.ExerciseBody} data-mode={mode}>
-      {detailItems.map(item => (
+  const renderExerciseDetails = useCallback(() => {
+    if(exercise.exerciseId == FIXED_EXERCISES.EXTERNAL_LINK.id) {
+      return (
         <ExerciseDetail
-          key={item.key}
-          property={item.key}
-          text={item.text}
-          value={item.value}
+          key={`${FIXED_EXERCISES.EXTERNAL_LINK.id}_detail`}
+          property={EXERCISE_DETAIL_SPECIAL_PROPERTIES.LINK}
+          text={t('External Link')}
+          value={link}
           mode={mode}
           setExerciseProperty={setExerciseProperty}
         />
-      ))}
+      );
+    }
+
+    return detailItems.map(item => (
+      <ExerciseDetail
+        key={item.key}
+        property={item.key}
+        text={item.text}
+        value={item.value}
+        mode={mode}
+        setExerciseProperty={setExerciseProperty}
+      />
+    ));
+  }, [ detailItems, exercise, link, mode, setExerciseProperty, t ]);
+
+  return (
+    <div className={styles.ExerciseBody} data-mode={mode} data-exercise-id={exercise.exerciseId}>
+      {renderExerciseDetails()}
 
       {renderStatus()}
 

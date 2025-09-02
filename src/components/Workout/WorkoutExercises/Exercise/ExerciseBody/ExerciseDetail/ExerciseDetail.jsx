@@ -1,6 +1,7 @@
 import { memo, useCallback } from 'react';
 
 import { Input, WorkoutConstants } from '@/components';
+import { EXERCISE_DETAIL_SPECIAL_PROPERTIES } from '@/constants';
 
 import styles from './ExerciseDetail.module.scss';
 
@@ -10,6 +11,10 @@ const ExerciseDetail = (props) => {
 
   const renderValue = useCallback(() => {
     if(mode != WorkoutConstants.WORKOUT_MODES.EDIT) {
+      if(property == EXERCISE_DETAIL_SPECIAL_PROPERTIES.LINK) {
+        return <a className={styles.ExerciseValue} href={value} target="_blank">{value}</a>;
+      }
+
       return <span className={styles.ExerciseValue}>{value}</span>;
     }
 

@@ -52,7 +52,7 @@ const asyncThunk = {
       return [];
     }
 
-    return await checkInsService.loadUserCheckIns(date, state.users.loggedUser.uid);
+    return await checkInsService.loadUserCheckInsByDate(date, state.users.loggedUser.uid);
   }),
   saveCheckIn: createAsyncThunk(`${CHECK_IN_SLICE_NAME}/saveCheckIn`, async (data) => await checkInsService.saveCheckIn(data)),
 };
