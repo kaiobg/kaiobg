@@ -1,5 +1,5 @@
 export const EXERCISE_DETAIL_SPECIAL_PROPERTIES = Object.freeze({
-  LINK: 'LINK',
+  LINK: 'link',
 });
 
 export const FIXED_EXERCISES = Object.freeze({
