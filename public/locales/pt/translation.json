@@ -96,7 +96,7 @@
   "Are you sure you want to remove this exercise": "Tem certeza que você deseja remove este exercício?",
   "This action cannot be undone": "Esta ação não pode ser desfeita",
   "Remove": "Remover",
-  "Remove Workout": "Remove Workout",
+  "Remove Workout": "Remover Treino",
   "Are you sure you want to remove this workout?": "Tem certeza que você deseja remove este treino?",
   "Send": "Enviar",
   "Manage Check-ins": "Gerenciar Check-ins",
@@ -180,5 +180,7 @@
   "Manage Users": "Gerenciar Usuários",
   "View last 100 check-ins": "Ver últimos 100 check-ins",
   "Back": "Voltar",
-  "External Link": "Link Externo"
+  "External Link": "Link Externo",
+  "Description": "Descrição",
+  "Comments about this workout": "Comentários sobre o treino"
 }

@@ -42,6 +42,13 @@
 
 .VideoArea {
   grid-area: video;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+
+  &.expanded {
+    max-height: 650px;
+  }
 }
 
 .StatusArea {

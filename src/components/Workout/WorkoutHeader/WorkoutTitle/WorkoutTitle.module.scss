@@ -3,4 +3,12 @@
   flex-direction: column;
   gap: 0.5rem;
   margin-right: auto;
+
+  h2 {
+    font-size: clamp(1rem, 0.8211rem + 0.7952vw, 1.5rem);
+  }
+
+  p {
+    font-size: 14px;
+  }
 }

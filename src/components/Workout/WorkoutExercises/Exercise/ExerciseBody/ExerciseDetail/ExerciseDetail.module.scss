@@ -1,9 +1,23 @@
+@use '@/styles/colors';
+
 .ExerciseDetail {
   display: flex;
   flex-direction: column;
   flex: 1;
+  overflow: hidden;
 }
 
 .ExerciseText {
   font-weight: 600;
+}
+
+.ExerciseValue {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  &:is(a) {
+    max-width: fit-content;
+    color: colors.$blue;
+  }
 }

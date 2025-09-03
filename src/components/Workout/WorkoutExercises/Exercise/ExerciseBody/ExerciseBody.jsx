@@ -86,7 +86,7 @@ const ExerciseBody = (props) => {
 
       {renderStatus()}
 
-      <div className={styles.VideoArea}>
+      <div className={`${styles.VideoArea} ${isExpanded ? styles.expanded : ''}`}>
         {renderVideo()}
       </div>
     </div>

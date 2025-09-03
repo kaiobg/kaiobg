@@ -58,6 +58,7 @@ const SendWorkout = (props) => {
       <TextArea
         value={comment}
         onChange={event => setComment(event.target.value)}
+        placeholder={t('Comments about this workout')}
       />
     
       <Button

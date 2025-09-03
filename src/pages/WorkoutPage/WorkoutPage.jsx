@@ -12,7 +12,7 @@ const WorkoutPage = () => {
 
   return (
     <>
-      <h1>{t('Workout')}</h1>
+      <h1 style={{ paddingBottom:'1rem' }}>{t('Workout')}</h1>
 
       <WorkoutsList
         workouts={workouts}
