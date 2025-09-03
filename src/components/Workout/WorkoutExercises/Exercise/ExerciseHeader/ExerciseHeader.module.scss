@@ -13,4 +13,9 @@
   color: colors.$blue;
   white-space: nowrap;
   overflow: hidden;
+
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
