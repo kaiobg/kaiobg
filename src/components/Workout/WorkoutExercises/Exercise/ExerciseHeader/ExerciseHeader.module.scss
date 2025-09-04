@@ -15,7 +15,6 @@
   overflow: hidden;
 
   span {
-    overflow: hidden;
-    text-overflow: ellipsis;
+    text-wrap: wrap;
   }
 }

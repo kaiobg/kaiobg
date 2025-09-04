@@ -1,6 +1,6 @@
 import { memo, useCallback, useMemo } from 'react';
 
-import { CheckIcon, WorkoutConstants, XIcon } from '@/components';
+import { CheckIcon, WorkoutConstants } from '@/components';
 
 import styles from './ExerciseStatus.module.scss';
 
@@ -29,17 +29,10 @@ const ExerciseStatus = (props) => {
       onClick={onChangeCompleteStatus}
       data-mode={mode}
     >
-      {isCompleted ? (
-        <CheckIcon
-          className={styles.ExerciseStatusIcon}
-          size="xs"
-        />
-      ) : (
-        <XIcon
-          className={styles.ExerciseStatusIcon}
-          size="xs"
-        />
-      )}
+      <CheckIcon
+        className={styles.ExerciseStatusIcon}
+        size="xs"
+      />
     </div>
   );
 };

@@ -65,7 +65,7 @@ const ExerciseHeader = (props) => {
         </span>
       );
     }
-    
+
     return renderExerciseEditMode();
   }, [ dbExercise?.title, exercise.exerciseId, mode, onClickHeader, renderExerciseEditMode ]);
 
@@ -85,10 +85,6 @@ const ExerciseHeader = (props) => {
       />
     );
   }, [ exercise?.exerciseId, isExpanded, onClickHeader ]);
-
-  if(exercise.exerciseId == FIXED_EXERCISES.EXTERNAL_LINK.id) {
-    return <></>;
-  }
 
   return (
     <div

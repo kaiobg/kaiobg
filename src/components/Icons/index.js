@@ -13,6 +13,7 @@ export * from './FileLinesIcon';
 export * from './FloppyDiskIcon';
 export * from './KaioLogo';
 export * from './LocationPinIcon';
+export * from './MinusIcon';
 export * from './PaperPlaneIcon';
 export * from './PenToSquareIcon';
 export * from './PlusIcon';

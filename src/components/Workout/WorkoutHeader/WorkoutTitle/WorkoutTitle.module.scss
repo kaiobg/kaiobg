@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 0.5rem;
   margin-right: auto;
+  flex: 1;
 
   h2 {
     font-size: clamp(1rem, 0.8211rem + 0.7952vw, 1.5rem);
