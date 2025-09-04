@@ -117,7 +117,10 @@ const AthleteAreaPage = () => {
           renderIcon={(props) => <ClipboardListIcon {...props} />}
           title={t('Training')}
           description={t('Access your workouts')}
-          to={{ pathname: '/workout' }}
+          to={{
+            pathname: '/workout',
+            ...(athleteId ? { search: `?uid=${athleteId}` } : {}),
+          }}
         />
 
         <ActionCard

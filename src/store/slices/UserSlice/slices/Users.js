@@ -102,6 +102,9 @@ const selectors = {
   selectUserByUid: (userUid) => (state) => {
     return state.users.users.find(user => user.uid === userUid);
   },
+  selectUserWorkoutsByUid: (userUid) => (state) => {
+    return state.users?.users?.find(user => user.uid === userUid)?.workouts;
+  },
   selectLoadUsersError: (state) => {
     return state.users.loadUsersError;
   },
