@@ -29,7 +29,7 @@ const QuillComponent = (props) => {
       theme="snow"
       value={value}
       modules={modules}
-      formats={[ 'image', 'width', 'height' ]}
+      formats={[ 'image', 'width', 'height', 'link' ]}
     />
   );
 };
