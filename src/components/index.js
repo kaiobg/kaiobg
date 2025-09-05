@@ -5,6 +5,8 @@ export * from './Buttons';
 export * from './CheckInList';
 export * from './ConfirmationDialog';
 export * from './ContentContainer';
+export * from './CourseCard';
+export * from './CourseList';
 export * from './Dialog';
 export * from './Dialogs';
 export * from './ExerciseList';

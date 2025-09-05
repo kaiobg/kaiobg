@@ -42,6 +42,15 @@
     },
     "save-publication": {
       "permission-denied": "Você não tem permissão para salvar publicações"
+    },
+    "load-courses": {
+      "auth/network-request-failed": "Erro de Rede: Por favor, verifique a sua conexão com a internet"
+    },
+    "add-course": {
+      "permission-denied": "Você não tem permissão para adicionar cursos"
+    },
+    "save-course": {
+      "permission-denied": "Você não tem permissão para salvar cursos"
     }
   },
   "Home": "Início",
@@ -148,13 +157,17 @@
   "Workout": "Treino",
   "Workouts": "Treinos",
   "Manage Publications": "Gerenciar Publicações",
+  "Manage Courses": "Gerenciar Cursos",
   "Add Publication": "Adicionar Publicação",
+  "Add Course": "Adicionar Curso",
   "English": "Inglês",
   "Portuguese": "Português",
   "Unpublish": "Despublicar",
   "Remove Publication": "Remover Publicação",
+  "Remove Course": "Remover Curso",
   "Remove Language": "Remover língua",
   "Are you sure you want to remove this publication?": "Tem certeza que deseja remover está publicação?",
+  "Are you sure you want to remove this course?": "Tem certeza que deseja remover este curso?",
   "Professional Education": "Formação profissional",
   "In activity": "Em atividade",
   "Event production": "Produção de eventos",
@@ -174,13 +187,17 @@
   "Assessment history": "Histórico de avaliações",
   "Latest tests": "Últimos testes",
   "Publications": "Publicações",
+  "Courses": "Cursos",
   "Read more": "Leia mais",
   "Loading...": "Carregando...",
   "Publication not found": "Publicação não encontrada",
+  "Course not found": "Curso não encontrado",
   "Manage Users": "Gerenciar Usuários",
   "View last 100 check-ins": "Ver últimos 100 check-ins",
   "Back": "Voltar",
   "External Link": "Link Externo",
   "Description": "Descrição",
-  "Comments about this workout": "Comentários sobre o treino"
+  "Comments about this workout": "Comentários sobre o treino",
+  "No publications found": "Nenhuma publicação encontrada",
+  "No courses found": "Nenhum curso encontrado"
 }

@@ -27,7 +27,13 @@ const PublicationsPage = () => {
     <div className={styles.PublicationsPage}>
       <h2 className={styles.header}>{t('Publications')}</h2>
       <div className={styles.publicationsGrid}>
-        {publications.map((publication) => {
+        {
+          !publications?.length ? (
+            <span>{t('No publications found')}</span>
+          ) : <></>
+        }
+
+        {publications?.map((publication) => {
           return (
             <PublicationCard key={publication.id} publication={publication} />
           );

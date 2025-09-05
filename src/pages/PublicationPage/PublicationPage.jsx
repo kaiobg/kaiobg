@@ -35,14 +35,14 @@ const PublicationPage = () => {
     if(!publication) {
       return null;
     }
-    return utils.getPublicationContentByUserLanguages(publication);
+    return utils.getContentByUserLanguages(publication);
   }, [ publication ]);
 
   const title = useMemo(() => {
     if(!publication) {
       return null;
     }
-    return utils.getPublicationTitleByUserLanguages(publication);
+    return utils.getTitleByUserLanguages(publication);
   }, [ publication ]);
 
   const onCloseLoadPublicationsErrorGrowl = useCallback(() => {

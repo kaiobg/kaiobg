@@ -30,5 +30,10 @@ service cloud.firestore {
     	allow read: if resource.data.isPublished || get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin;
       allow write: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin;
     }
+
+    match /courses/{courseId} {
+    	allow read: if resource.data.isPublished || get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin;
+      allow write: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin;
+    }
   }
 }

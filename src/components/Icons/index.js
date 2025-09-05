@@ -11,6 +11,7 @@ export * from './EyeIcon';
 export * from './EyeSlashIcon';
 export * from './FileLinesIcon';
 export * from './FloppyDiskIcon';
+export * from './GraduationCapIcon';
 export * from './KaioLogo';
 export * from './LocationPinIcon';
 export * from './MinusIcon';

@@ -22,6 +22,21 @@ export const deepClone = (obj) => {
   return JSON.parse(JSON.stringify(obj));
 };
 
+export const getContentByUserLanguages = (publication) => {
+  const userLanguagesList = getUserMainLanguagesList();
+
+  const contentsByUserLanguage = userLanguagesList.map((language) => {
+    return publication.content[language] || null;
+  }).filter(Boolean);
+
+  const contentsByUserLanguageWithDefaultValues = [
+    ...contentsByUserLanguage,
+    publication.content.en || publication.content.pt,
+  ];
+
+  return contentsByUserLanguageWithDefaultValues[0];
+};
+
 export const getDateFormatted = (date, extraOptions = {}) => {
   const options = {
     year: 'numeric',
@@ -74,22 +89,7 @@ export const getMainUserLanguage = () => {
   return language;
 };
 
-export const getPublicationContentByUserLanguages = (publication) => {
-  const userLanguagesList = getUserMainLanguagesList();
-
-  const contentsByUserLanguage = userLanguagesList.map((language) => {
-    return publication.content[language] || null;
-  }).filter(Boolean);
-
-  const contentsByUserLanguageWithDefaultValues = [
-    ...contentsByUserLanguage,
-    publication.content.en || publication.content.pt,
-  ];
-
-  return contentsByUserLanguageWithDefaultValues[0];
-};
-
-export const getPublicationTitleByUserLanguages = (publication) => {
+export const getTitleByUserLanguages = (publication) => {
   const userLanguagesList = getUserMainLanguagesList();
 
   const titlesByUserLanguage = userLanguagesList.map((language) => {

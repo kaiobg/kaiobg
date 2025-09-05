@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import { ExerciseSlice, UserSlice, CheckInSlice, PublicationSlice } from './slices';
+import { ExerciseSlice, UserSlice, CheckInSlice, PublicationSlice, CourseSlice } from './slices';
 
 export const store = configureStore({
   reducer: {
@@ -8,5 +8,6 @@ export const store = configureStore({
     exercises: ExerciseSlice.reducer,
     checkIns: CheckInSlice.reducer,
     publications: PublicationSlice.reducer,
+    courses: CourseSlice.reducer,
   },
 });

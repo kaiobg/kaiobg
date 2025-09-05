@@ -42,6 +42,15 @@
     },
     "save-publication": {
       "permission-denied": "You don't have permission to save publications"
+    },
+    "load-courses": {
+      "auth/network-request-failed": "Network Error: Please, check your network connection"
+    },
+    "add-course": {
+      "permission-denied": "You don't have permission to add courses"
+    },
+    "save-course": {
+      "permission-denied": "You don't have permission to save courses"
     }
   }
 }

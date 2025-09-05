@@ -4,4 +4,5 @@ export const DB_KEYS = Object.freeze({
   WORKOUTS: 'workouts',
   CHECK_INS: 'checkIns',
   PUBLICATIONS: 'publications',
+  COURSES: 'courses',
 });

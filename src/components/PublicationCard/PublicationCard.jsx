@@ -11,8 +11,8 @@ const PublicationCard = (props) => {
   const { publication } = props;
   const { t } = useTranslation();
 
-  const content = utils.getPublicationContentByUserLanguages(publication);
-  const title = utils.getPublicationTitleByUserLanguages(publication);
+  const content = utils.getContentByUserLanguages(publication);
+  const title = utils.getTitleByUserLanguages(publication);
 
   return (
     <div className={styles.PublicationCard}>
